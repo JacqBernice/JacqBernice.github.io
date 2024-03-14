@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>JacqBernice.github.io</title>
+<title>JacqBernice.github.io - Animation Movies Analysis</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,40 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -121,7 +87,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html" rel="" target="">
- <span class="menu-text">About</span></a>
+ <span class="menu-text">About Me</span></a>
   </li>  
 </ul>
             <div class="quarto-navbar-tools ms-auto">
@@ -135,14 +101,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a></li>
+  <li><a href="#aim" id="toc-aim" class="nav-link" data-scroll-target="#aim">Aim</a></li>
+  <li><a href="#about-data-set" id="toc-about-data-set" class="nav-link" data-scroll-target="#about-data-set">About Data Set</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">JacqBernice.github.io</h1>
+<h1 class="title">Animation Movies Analysis</h1>
 </div>
 
 
@@ -157,16 +131,93 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<p>This is a Quarto website.</p>
-<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
+<section id="background" class="level2">
+<h2 class="anchored" data-anchor-id="background">Background</h2>
+<p>Animation movies, a vibrant blend of art and storytelling, have evolved significantly since their inception. The journey began with short, silent cartoons in the early 20th century, gradually transforming into feature-length films by the 1930s, marked by the release of Disney’s “Snow White and the Seven Dwarfs.” Over the decades, the advancement of computer-generated imagery (CGI) revolutionized the industry, beginning with Pixar’s “Toy Story” in 1995, the first fully computer-animated feature film. Animation styles have diversified, embracing traditional hand-drawn, stop-motion, and digital techniques, appealing to a broad audience beyond just children. Today, animation movies are celebrated for their complex storytelling, intricate visuals, and the ability to explore a wide range of themes, making them a beloved genre worldwide.</p>
+</section>
+<section id="aim" class="level2">
+<h2 class="anchored" data-anchor-id="aim">Aim</h2>
+<p>My analysis of animation movies aims to identify trends over time, such as shifts in rates of popularity based on its released year, and to evaluate the economic aspects, including budget vs.&nbsp;revenue analysis, to determine what types of animation movies are most commercially successful.</p>
+</section>
+<section id="about-data-set" class="level2">
+<h2 class="anchored" data-anchor-id="about-data-set">About Data Set</h2>
+<p>The data set that I am using for my analysis is from Kaggle by Ayush Chandra Maurya titled: “Animation movies”. The dataset contains detailed information of animation movies scraped from the TMDB API. The following is a glimpse of the data set:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'tidyverse' was built under R version 4.3.2</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'ggplot2' was built under R version 4.3.2</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'tibble' was built under R version 4.3.2</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'tidyr' was built under R version 4.3.2</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'readr' was built under R version 4.3.2</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'purrr' was built under R version 4.3.2</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'dplyr' was built under R version 4.3.2</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'stringr' was built under R version 4.3.2</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'forcats' was built under R version 4.3.2</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'lubridate' was built under R version 4.3.2</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.4.4     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.0
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</code></pre>
+</div>
+</div>
+<div class="cell">
 <div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
+<pre><code>Rows: 51,945
+Columns: 23
+$ id                   &lt;int&gt; 150540, 14160, 12, 354912, 10681, 585, 862, 8587,…
+$ title                &lt;chr&gt; "Inside Out", "Up", "Finding Nemo", "Coco", "WALL…
+$ vote_average         &lt;dbl&gt; 7.922, 7.949, 7.824, 8.222, 8.078, 7.835, 7.971, …
+$ vote_count           &lt;int&gt; 19463, 18857, 18061, 17742, 17446, 17189, 17152, …
+$ status               &lt;chr&gt; "Released", "Released", "Released", "Released", "…
+$ release_date         &lt;chr&gt; "2015-06-09", "2009-05-28", "2003-05-30", "2017-1…
+$ revenue              &lt;int&gt; 857611174, 735099082, 940335536, 800526015, 52131…
+$ runtime              &lt;int&gt; 95, 96, 100, 105, 98, 92, 81, 89, 115, 90, 111, 1…
+$ adult                &lt;chr&gt; "False", "False", "False", "False", "False", "Fal…
+$ backdrop_path        &lt;chr&gt; "/j29ekbcLpBvxnGk6LjdTc2EI5SA.jpg", "/hGGC9gKo7CF…
+$ budget               &lt;int&gt; 175000000, 175000000, 94000000, 175000000, 180000…
+$ homepage             &lt;chr&gt; "http://movies.disney.com/inside-out", "http://di…
+$ imdb_id              &lt;chr&gt; "tt2096673", "tt1049413", "tt0266543", "tt2380307…
+$ original_language    &lt;chr&gt; "en", "en", "en", "en", "en", "en", "en", "en", "…
+$ original_title       &lt;chr&gt; "Inside Out", "Up", "Finding Nemo", "Coco", "WALL…
+$ overview             &lt;chr&gt; "Growing up can be a bumpy road, and it's no exce…
+$ popularity           &lt;dbl&gt; 107.292, 90.968, 55.456, 166.578, 58.517, 86.936,…
+$ poster_path          &lt;chr&gt; "/2H1TmgdfNtsKlU9jKdeNyYL5y8T.jpg", "/vpbaStTMt8q…
+$ tagline              &lt;chr&gt; "Meet the little voices inside your head.", "The …
+$ genres               &lt;chr&gt; "Animation, Family, Adventure, Drama, Comedy", "A…
+$ production_companies &lt;chr&gt; "Pixar, Walt Disney Pictures", "Pixar", "Pixar", …
+$ production_countries &lt;chr&gt; "United States of America", "United States of Ame…
+$ spoken_languages     &lt;chr&gt; "English", "English", "English", "English, Spanis…</code></pre>
 </div>
 </div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

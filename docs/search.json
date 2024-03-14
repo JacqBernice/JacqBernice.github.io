@@ -2,15 +2,43 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About Me",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Did you ask who I am? Well, you’re about to find out."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "JacqBernice.github.io",
+    "title": "Animation Movies Analysis",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Animation movies, a vibrant blend of art and storytelling, have evolved significantly since their inception. The journey began with short, silent cartoons in the early 20th century, gradually transforming into feature-length films by the 1930s, marked by the release of Disney’s “Snow White and the Seven Dwarfs.” Over the decades, the advancement of computer-generated imagery (CGI) revolutionized the industry, beginning with Pixar’s “Toy Story” in 1995, the first fully computer-animated feature film. Animation styles have diversified, embracing traditional hand-drawn, stop-motion, and digital techniques, appealing to a broad audience beyond just children. Today, animation movies are celebrated for their complex storytelling, intricate visuals, and the ability to explore a wide range of themes, making them a beloved genre worldwide."
+  },
+  {
+    "objectID": "index.html#background",
+    "href": "index.html#background",
+    "title": "Animation Movies Analysis",
+    "section": "",
+    "text": "Animation movies, a vibrant blend of art and storytelling, have evolved significantly since their inception. The journey began with short, silent cartoons in the early 20th century, gradually transforming into feature-length films by the 1930s, marked by the release of Disney’s “Snow White and the Seven Dwarfs.” Over the decades, the advancement of computer-generated imagery (CGI) revolutionized the industry, beginning with Pixar’s “Toy Story” in 1995, the first fully computer-animated feature film. Animation styles have diversified, embracing traditional hand-drawn, stop-motion, and digital techniques, appealing to a broad audience beyond just children. Today, animation movies are celebrated for their complex storytelling, intricate visuals, and the ability to explore a wide range of themes, making them a beloved genre worldwide."
+  },
+  {
+    "objectID": "index.html#aim",
+    "href": "index.html#aim",
+    "title": "Animation Movies Analysis",
+    "section": "Aim",
+    "text": "Aim\nMy analysis of animation movies aims to identify trends over time, such as shifts in rates of popularity based on its released year, and to evaluate the economic aspects, including budget vs. revenue analysis, to determine what types of animation movies are most commercially successful."
+  },
+  {
+    "objectID": "index.html#about-data-set",
+    "href": "index.html#about-data-set",
+    "title": "Animation Movies Analysis",
+    "section": "About Data Set",
+    "text": "About Data Set\nThe data set that I am using for my analysis is from Kaggle by Ayush Chandra Maurya titled: “Animation movies”. The dataset contains detailed information of animation movies scraped from the TMDB API. The following is a glimpse of the data set:\n\n\nWarning: package 'tidyverse' was built under R version 4.3.2\n\n\nWarning: package 'ggplot2' was built under R version 4.3.2\n\n\nWarning: package 'tibble' was built under R version 4.3.2\n\n\nWarning: package 'tidyr' was built under R version 4.3.2\n\n\nWarning: package 'readr' was built under R version 4.3.2\n\n\nWarning: package 'purrr' was built under R version 4.3.2\n\n\nWarning: package 'dplyr' was built under R version 4.3.2\n\n\nWarning: package 'stringr' was built under R version 4.3.2\n\n\nWarning: package 'forcats' was built under R version 4.3.2\n\n\nWarning: package 'lubridate' was built under R version 4.3.2\n\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.4.4     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.0\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\n\n\n\nRows: 51,945\nColumns: 23\n$ id                   &lt;int&gt; 150540, 14160, 12, 354912, 10681, 585, 862, 8587,…\n$ title                &lt;chr&gt; \"Inside Out\", \"Up\", \"Finding Nemo\", \"Coco\", \"WALL…\n$ vote_average         &lt;dbl&gt; 7.922, 7.949, 7.824, 8.222, 8.078, 7.835, 7.971, …\n$ vote_count           &lt;int&gt; 19463, 18857, 18061, 17742, 17446, 17189, 17152, …\n$ status               &lt;chr&gt; \"Released\", \"Released\", \"Released\", \"Released\", \"…\n$ release_date         &lt;chr&gt; \"2015-06-09\", \"2009-05-28\", \"2003-05-30\", \"2017-1…\n$ revenue              &lt;int&gt; 857611174, 735099082, 940335536, 800526015, 52131…\n$ runtime              &lt;int&gt; 95, 96, 100, 105, 98, 92, 81, 89, 115, 90, 111, 1…\n$ adult                &lt;chr&gt; \"False\", \"False\", \"False\", \"False\", \"False\", \"Fal…\n$ backdrop_path        &lt;chr&gt; \"/j29ekbcLpBvxnGk6LjdTc2EI5SA.jpg\", \"/hGGC9gKo7CF…\n$ budget               &lt;int&gt; 175000000, 175000000, 94000000, 175000000, 180000…\n$ homepage             &lt;chr&gt; \"http://movies.disney.com/inside-out\", \"http://di…\n$ imdb_id              &lt;chr&gt; \"tt2096673\", \"tt1049413\", \"tt0266543\", \"tt2380307…\n$ original_language    &lt;chr&gt; \"en\", \"en\", \"en\", \"en\", \"en\", \"en\", \"en\", \"en\", \"…\n$ original_title       &lt;chr&gt; \"Inside Out\", \"Up\", \"Finding Nemo\", \"Coco\", \"WALL…\n$ overview             &lt;chr&gt; \"Growing up can be a bumpy road, and it's no exce…\n$ popularity           &lt;dbl&gt; 107.292, 90.968, 55.456, 166.578, 58.517, 86.936,…\n$ poster_path          &lt;chr&gt; \"/2H1TmgdfNtsKlU9jKdeNyYL5y8T.jpg\", \"/vpbaStTMt8q…\n$ tagline              &lt;chr&gt; \"Meet the little voices inside your head.\", \"The …\n$ genres               &lt;chr&gt; \"Animation, Family, Adventure, Drama, Comedy\", \"A…\n$ production_companies &lt;chr&gt; \"Pixar, Walt Disney Pictures\", \"Pixar\", \"Pixar\", …\n$ production_countries &lt;chr&gt; \"United States of America\", \"United States of Ame…\n$ spoken_languages     &lt;chr&gt; \"English\", \"English\", \"English\", \"English, Spanis…"
+  },
+  {
+    "objectID": "about.html#self-introduction",
+    "href": "about.html#self-introduction",
+    "title": "About Me",
+    "section": "Self Introduction",
+    "text": "Self Introduction\nGreetings! I’m Jacqueline Bernice Howard, a student at NUS majoring in Communications and New Media (I love CNM!). Despite my name sounding angmoh, I am not. As a matter of fact, I am a proud Indonesian who was born and raised in that country. Here’s a proof that I am not angmoh:\n\n\n\n\n\nWith my 20th birthday coming up later in September this year, I find myself reminiscing about the experiences that I have had over the past two decades. Growing up, animation movies played a significant role in my life. As a child, I was always a Disney fan (or perhaps a Disney princess wannabe, but a girl can always dream, can’t she?). As someone who watches Disney movies regularly, my interest has expanded to those from other companies like Pixar and Mattel as well. I would like to believe that any age group can enjoy these animation movies, regardless of whether they are kids, teenagers, adults, or even senior citizens. The fact that animation movies bring people of all ages together is one of the reasons I enjoy watching them so much.\nThe love I have for these movies made me decide to present a data story regarding animation movies. I am specifically interested in finding out if the popularity of a movie is related to its genre and the year in which it was released."
   }
 ]
