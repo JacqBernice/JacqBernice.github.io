@@ -1,0 +1,14 @@
+{
+  "hash": "0fb47a2aaf66a339897a7fe75c3663aa",
+  "result": {
+    "markdown": "---\ntitle: \"My Data Story\"\n---\n\n\n## Visualization\n\n\n::: {.cell}\n\n:::\n\n\nThe variables that we are visualizing would be:\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n```\n [1] \"title\"        \"vote_average\" \"vote_count\"   \"status\"       \"release_date\"\n [6] \"revenue\"      \"runtime\"      \"budget\"       \"popularity\"   \"genres\"      \n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

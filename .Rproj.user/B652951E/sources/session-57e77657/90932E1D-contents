@@ -1,0 +1,288 @@
+---
+title: "Code Along and Challenge 9"
+author: "Jacqueline Bernice Howard"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+### **Code-Along 9**
+
+<br> 
+
+#### Example (Slide 6)
+```{r, eval=FALSE,echo=TRUE}
+library(shiny)
+runApp("01_hello")
+```
+
+```{r, eval=TRUE,echo=TRUE}
+knitr::include_graphics("D:/Y2S2/NM2207/Week 9/App-1/01_hello.png")
+
+```
+<br>
+
+#### Let us begin (Slide 12)
+```{r, eval=FALSE,echo=TRUE}
+library(shiny)
+runApp("App-1")
+```
+
+<br>
+
+#### App-1: customization (Slide 13)
+```{r, eval=FALSE,echo=TRUE}
+library(shiny)
+
+ui <- fluidPage(
+  
+
+  titlePanel("Hello World!"),
+  
+
+  sidebarLayout(
+    
+    sidebarPanel(
+      
+      sliderInput(inputId = "bins",
+                  label = "Number of bins:",
+                  min = 5,
+                  max = 50,
+                  value = 30)
+      
+    ),
+    
+    mainPanel(
+      
+      plotOutput(outputId = "distPlot")
+      
+    )
+  )
+)
+
+server <- function(input, output) {
+
+```
+
+```{r, eval=TRUE,echo=TRUE}
+knitr::include_graphics("D:/Y2S2/NM2207/Week 9/App-1/helloworld.png")
+
+```
+<br>
+
+#### Building an app from scratch (Slide 15)
+```{r, eval=FALSE,echo=TRUE}
+library(shiny)
+ui <- fluidPage(
+)
+server <- function(input, output) {
+}
+```
+
+```{r, eval=TRUE,echo=TRUE}
+knitr::include_graphics("D:/Y2S2/NM2207/Week 9/App-1/blank.png")
+
+```
+
+<br>
+
+#### User interface (Slide 16 & 17)
+```{r, eval=FALSE,echo=TRUE}
+library(shiny)
+ui <- fluidPage(
+  titlePanel("Insert your title here"),
+  sidebarLayout(
+    position="left",
+    sidebarPanel("sidebar panel"),
+    mainPanel("main panel")
+  )
+)
+server <- function(input, output) {
+}
+shinyApp(ui = ui, server = server)
+```
+
+```{r, eval=TRUE,echo=TRUE}
+knitr::include_graphics("D:/Y2S2/NM2207/Week 9/App-1/panels.png")
+
+```
+
+
+<br>
+
+#### User interface: headers (Slide 19 & 20)
+```{r, eval=FALSE,echo=TRUE}
+library(shiny)
+# Define UI ----
+ui <- fluidPage(
+  titlePanel("My Shiny App"),
+  sidebarLayout(
+    sidebarPanel(),
+    mainPanel(
+      h1("First level title"),
+      h2("Second level title"),
+      h3("Third level title"),
+      h4("Fourth level title"),
+      h5("Fifth level title"),
+      h6("Sixth level title")
+    )
+  )
+)
+# Define server logic ----
+server <- function(input, output) {
+}
+# Run the app ----
+shinyApp(ui = ui, server = server)
+```
+
+```{r, eval=TRUE,echo=TRUE}
+knitr::include_graphics("D:/Y2S2/NM2207/Week 9/App-1/headers.png")
+
+```
+
+<br>
+
+#### User interface: formatted text (Slide 22)
+```{r, eval=FALSE,echo=TRUE}
+library(shiny)
+# Define UI ----
+ui <- fluidPage(
+  titlePanel("My Shiny App"),
+  sidebarLayout(
+    sidebarPanel(),
+    mainPanel(
+      p("p creates a paragraph of text."),
+      p("A new p() command starts a new paragraph. Supply a style attribute to change the format of the entire   paragraph"),
+      strong("strong() makes bold text."),
+      em("em() creates italicized (i.e, emphasized) text."),
+      br(),
+      code("code displays your text similar to computer code"),
+      div("div creates segments of text with a similar style. This division of text is all blue because I passed the argument 'style =color:blue' to div),
+        br(),
+        p("span does the same thing as div, but it works with",
+          span("groups of words", style = "color:blue"),
+          "that appear inside a paragraph.")
+      )
+    )
+  )
+  
+# Define server logic ----
+server <- function(input, output) {
+}
+# Run the app ----
+shinyApp(ui = ui, server = server)
+
+```
+
+```{r, eval=TRUE,echo=TRUE}
+knitr::include_graphics("D:/Y2S2/NM2207/Week 9/App-1/text.png")
+
+```
+
+<br>
+
+#### User interface: images (Slide 23 & 24)
+```{r, eval=FALSE,echo=TRUE}
+library(shiny)
+# Define UI ----
+ui <- fluidPage(
+  titlePanel("My Shiny App"),
+  sidebarLayout(
+    sidebarPanel(),
+    mainPanel(
+      p("p creates a paragraph of text."),
+      p("A new p() command starts a new paragraph. Supply a style attribute to change the format of the entire paragraph"),
+      strong("strong() makes bold text."),
+      em("em() creates italicized (i.e, emphasized) text."),
+      br(),
+      code("code displays your text similar to computer code"),
+      div("div creates segments of text with a similar style. This division of text is all blue because I passed the 
+          argument 'style=color:blue' to div"),
+        br(),
+        p("span does the same thing as div, but it works with",
+          span("groups of words", style = "color:blue"),
+          "that appear inside a paragraph."),
+      img(src = "rstudio.png", height = 140, width = 400)
+      )
+    )
+  )
+  
+# Define server logic ----
+server <- function(input, output) {
+}
+# Run the app ----
+shinyApp(ui = ui, server = server)
+
+```
+
+```{r, eval=TRUE,echo=TRUE}
+knitr::include_graphics("D:/Y2S2/NM2207/Week 9/App-1/images.png")
+
+```
+
+<br>
+
+#### User interface: images (Slide 25)
+```{r, eval=FALSE,echo=TRUE}
+library(shiny)
+# Define UI ----
+ui <- fluidPage(
+  titlePanel("My Shiny App"),
+  sidebarLayout(
+    sidebarPanel(img(src = "rstudio.png", height = 140, width = 400)),
+    mainPanel(
+      p("p creates a paragraph of text."),
+      p("A new p() command starts a new paragraph. Supply a style attribute to change the format of the entire paragraph"),
+      strong("strong() makes bold text."),
+      em("em() creates italicized (i.e, emphasized) text."),
+      br(),
+      code("code displays your text similar to computer code"),
+      div("div creates segments of text with a similar style. This division of text is all blue because I passed the 
+          argument 'style=color:blue' to div"),
+        br(),
+        p("span does the same thing as div, but it works with",
+          span("groups of words", style = "color:blue"),
+          "that appear inside a paragraph."),
+      )
+    )
+  )
+  
+# Define server logic ----
+server <- function(input, output) {
+}
+# Run the app ----
+shinyApp(ui = ui, server = server)
+
+```
+
+```{r, eval=TRUE,echo=TRUE}
+knitr::include_graphics("D:/Y2S2/NM2207/Week 9/App-1/sidepanel.png")
+
+```
+
+<br>
+
+### **Challenge 9**
+
+#### Changes made to Shiny "02_text" Example Structure
+
+In the "02_text" example from the Shiny package, the user interacts with text inputs instead of numeric inputs. To adapt the guessing game to fit within this structure, the following changes were made:
+
+1. **UI Modification:**
+I moved the input elements (text input and submit button) to the `mainpanel()`.
+
+2. **Sidebar Image:**
+I added an image to the sidebar using the `img()` function. This image adds visual appeal to the game and enhances the overall user experience.
+
+3. **Input Element Modification:**
+I replaced the numeric input field with a text input field using `textInput()` function. Additionally, I changed the label of the text input field to "Enter your guess (1-100):".
+
+4. **Server Function Modification:**
+I adjusted the logic to handle text input instead of numeric input and converted the input from text to numeric using `as.numeric()` function. Furthermore, I added validation to ensure that the input is a valid number. Last but not least, I provided feedback based on whether the guess was too low, too high, or correct.
+
+```{r, eval=TRUE,echo=TRUE}
+knitr::include_graphics("D:/Y2S2/NM2207/Week 9/App-1/screenshot.png")
+
+```

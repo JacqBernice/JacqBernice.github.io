@@ -1,0 +1,50 @@
+---
+title: "Diary Entry 2"
+author: "Jacqueline Bernice Howard"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<br> 
+
+##### **(1) What is the question that you are going to answer?**
+<br>
+The question that I am going to answer that could also act like the title of my data story is **What Makes Animation Tick: Are Certain Genres More Popular Depending on the Year of Release?**
+
+<br>
+
+##### **(2) Why is this an important question?**
+<br>
+This is important because according to Fu and Yao (2010), the concept of genre reflects the diverse emotional needs of the audience, serving as a crucial factor for movie makers, distributors, and investors to make informed decisions regarding film production, marketing strategies, and audience engagement, thereby influencing the success of their endeavors in the film industry. Furthermore, the film genre, according to Nikolić et al. (2022), can have a detrimental impact on how the film is going to be accepted by the audience and how and to whom it will be recommended. In other words, finding out the correlation between the film's genre, popularity, and release year is important to predict consumers' behaviour for future films produced.
+
+<br>
+
+##### **(3) Which rows and columns of the dataset will be used to answer this question?**
+```{r, eval=TRUE,echo=FALSE}
+data <- read.csv("Animation_Movies.csv")
+```
+<br>
+The variables I will be using are:
+```{r, eval=TRUE,echo=FALSE}
+names(data)[c(2, 3, 4, 5, 6, 7,8,11,17,20)]
+```
+
+<br>
+So far, I have not encountered any issues with the dataset yet, as I think the variables and the data is quite straighforward.
+
+<br>
+
+##### **References**
+
+Fu, X., & Yao, X. (2010). How Do Movie Producers Identify the Genre Shifting Trend. Master’s Thesis Within 
+  Economics and Management of Entertainment and Arts Industries. 
+  http://www.diva-portal.org/smash/get/diva2:352538/FULLTEXT01"
+
+Nikolić, D., Kostić-Stanković, M., & Jeremić, V. (2022). Market segmentation in the film industry based on genre 
+  preference: the case of millennials. The Engineering Economics, 33(2), 215–228. 
+  https://doi.org/10.5755/j01.ee.33.2.30616
+
