@@ -1,0 +1,23 @@
+---
+title: "Diary Entry"
+author: "Jacqueline Bernice Howard"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+<br> 
+
+##### **(1) What is the topic that you have finalized?**
+<br>
+My final topic for the project would be Animation Movies. Specifically, I would like to identify and and analyse any relationships between the movies' popularity with their genres and released dates. 
+
+<br>
+
+##### **(2) What are the data sources that you have curated so far?**
+<br>
+So far, I've only curated one data source, that is a dataset from Kaggle: https://www.kaggle.com/datasets/ayushchandramaurya/animation-movies.

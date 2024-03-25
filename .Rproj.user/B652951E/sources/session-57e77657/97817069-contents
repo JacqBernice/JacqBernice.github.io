@@ -1,0 +1,219 @@
+---
+title: "Code Along-8 and Challenge-8"
+author: "Jacqueline Bernice Howard"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### **Code-Along 8**
+
+<br> 
+
+#### Tidy vs Non-Tidy (Slide 8)
+```{r, eval=TRUE,echo=TRUE}
+library(tidyverse)
+tidydata <- tribble(
+~country, ~year, ~cases, ~population,
+"Afghanistan", 1999, 745, 19987071,
+"Afghanistan", 2000, 2666, 20595360,
+"Brazil", 1999, 37737, 172006362,
+"Brazil", 2000, 80488, 174504898,
+"China", 1999, 212258, 1272915272,
+"China", 2000, 213766, 1280428583)
+tidydata
+
+nontidydata <- tribble(
+~country,~year,~rate,
+"Afghanistan", 1999, "745/19987071",
+"Afghanistan", 2000, "2666/20595360",
+"Brazil", 1999, "37737/172006362",
+"Brazil", 2000, "80488/174504898",
+"China", 1999, "212258/1272915272",
+"China", 2000, "213766/1280428583")
+nontidydata
+```
+
+<br>
+
+#### Why Tidy Data? (Slide 9)
+```{r, eval=TRUE,echo=TRUE}
+tidydata %>% group_by(year) %>% summarize(total_cases = sum(cases))
+```
+
+<br> 
+
+#### Tidy-ing data: Example-1 (Slide 11)
+```{r, eval=TRUE,echo=TRUE}
+nontidydata
+
+tidieddata <- nontidydata %>% separate(rate, into = c("cases", "population"), sep = "/")
+tidieddata
+```
+
+<br>
+
+#### Tidy-ing data: Example-1 (Slide 12)
+```{r, eval=TRUE,echo=TRUE}
+newtidieddata <- tidieddata %>% pivot_longer(cols = cases:population,
+names_to = "measurement",
+values_to = "value")
+newtidieddata
+```
+
+<br>
+
+#### Tidy-ing data: Example-1 (Slide 13)
+```{r, eval=TRUE,echo=TRUE}
+library(ggplot2)
+ggplot(newtidieddata) + aes(x=year,y=value, colour=country) +
+geom_point() + geom_line(aes(group = country))+
+facet_wrap(~measurement) +
+theme_bw()
+```
+
+<br>
+
+#### Tidy-ing data: Example-2 (Slide 14)
+```{r, eval=TRUE,echo=TRUE}
+df <- tribble(~id, ~bp1, ~bp2, "A", 100, 120,
+"B", 140, 115, "C", 120, 125)
+df
+
+df %>% pivot_longer(cols = bp1:bp2,
+names_to = "measurement",
+values_to = "value")
+```
+
+<br>
+
+#### Reshaping data: Example-3 (Slide 18)
+```{r, eval=TRUE,echo=TRUE}
+newtidieddata
+
+newtidieddata %>%
+pivot_wider(names_from="measurement",
+values_from = "value")
+```
+
+<br>
+
+#### Reshaping data: Example-4 (Slide 19)
+```{r, eval=TRUE,echo=TRUE}
+df <- tribble(
+~id, ~measurement, ~value,
+"A", "bp1", 100,
+"B", "bp1", 140,
+"B", "bp2", 115,
+"A", "bp2", 120,
+"A", "bp3", 105
+)
+df
+
+df %>% pivot_wider(
+names_from = measurement,
+values_from = value)
+```
+
+<br>
+
+#### Basics (Slide 22)
+```{r, eval=TRUE,echo=TRUE}
+library(rvest)
+```
+
+<br>
+
+```{r, eval=TRUE,echo=TRUE}
+webpage <- read_html("https://books.toscrape.com/")
+table <-html_elements(webpage,"body")
+```
+
+<br>
+
+#### Calling an API (Slide 25)
+```{r, eval=TRUE,echo=TRUE}
+library(httr)
+library(jsonlite)
+
+# current data
+current_county_data_url <- "https://api.covidactnow.org/v2/counties.csv?apiKey=YOUR_KEY_HERE"
+# historic data
+historic_county_data_url <-
+"https://api.covidactnow.org/v2/counties.timeseries.csv?apiKey=YOUR_KEY_HERE"
+# individual location data
+individual_loc_data_url <-
+"https://api.covidactnow.org/v2/county/{state}.csv?apiKey=YOUR_KEY_HERE"
+```
+
+<br>
+
+#### Calling an API (Slide 26)
+```{r, eval=TRUE,echo=TRUE}
+# current data
+current_county_data_url <- "https://api.covidactnow.org/v2/counties.csv?apiKey=33382de96fd8441fb6c1eca82b3bd4ec"
+raw_data <- GET(current_county_data_url)
+raw_data$status
+raw_data$content
+```
+
+<br>
+
+#### Calling an API (Slide 27)
+```{r, eval=TRUE,echo=TRUE}
+# historic data
+historic_county_data_url <-
+"https://api.covidactnow.org/v2/counties.timeseries.csv?apiKey=33382de96fd8441fb6c1eca82b3bd4ec"
+raw_data <- GET(historic_county_data_url)
+raw_data$status
+raw_data$content
+```
+
+<br>
+
+#### Calling an API (Slide 28)
+```{r, eval=TRUE,echo=TRUE}
+# individual location data
+individual_loc_data_url <-
+"https://api.covidactnow.org/v2/county/{49}.csv?apiKey=33382de96fd8441fb6c1eca82b3bd4ec"
+raw_data <- GET(individual_loc_data_url)
+raw_data$status
+raw_data$content
+```
+
+<br> 
+
+### **Challenge-8**
+
+<br>
+
+#### **Part 1.**
+
+```{r, eval=TRUE,echo=TRUE}
+billboard_pivot <- billboard %>%
+pivot_longer(cols = starts_with("wk"),
+names_to = "week",
+values_to = "rank",
+values_drop_na = TRUE) %>%
+mutate(week = parse_number(week))
+```
+
+<br>
+
+```{r, eval=TRUE,echo=TRUE}
+ggplot(billboard_pivot, aes(x = week, y = rank)) +
+geom_line() + labs(x = "Week", y = "Rank")
+```
+
+<br>
+
+#### **Part 2.**
+```{r, eval=TRUE,echo=TRUE}
+cms_patient_pivot <- cms_patient_experience %>% pivot_wider(id_cols = starts_with("org"), 
+names_from="measure_cd",
+values_from = "prf_rate")
+
+```
