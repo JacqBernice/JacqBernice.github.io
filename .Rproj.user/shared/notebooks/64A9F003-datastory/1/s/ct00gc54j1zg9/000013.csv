@@ -1,0 +1,5 @@
+"0",""
+"0","ggplot(data = study, aes(x = gender, y = reading_score, color = gender)) +"
+"0","  geom_point() +"
+"0","  labs(x = ""Gender"", y = ""Reading Score"") +"
+"0","  ggtitle(""Reading Scores by Gender"")"

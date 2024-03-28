@@ -1,0 +1,5 @@
+"0",""
+"0","ggplot(study, aes(x = average_score, fill = test_preparation_course)) + geom_histogram(binwidth = 10) +"
+"0","labs(x = ""Average Test Score"",y = ""Frequency"") +"
+"0","facet_wrap(~ test_preparation_course, nrow = 2)"
+"0",""

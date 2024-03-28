@@ -1,0 +1,502 @@
+title,year,genre2,genre3,runtime,rating,votes
+Puss in Boots: The Last Wish,2022, Adventure, Comedy,102,7.8,"18,226"
+Strange World,2022, Action, Adventure,102,5.5,"27,296"
+Guillermo del Toro's Pinocchio,2022, Drama, Family,117,7.7,"60,908"
+Encanto,2021, Comedy, Family,102,7.2,"223,651"
+"The Boy, the Mole, the Fox and the Horse",2022, Family,,32,8.1,"3,893"
+Disenchanted,2022, Adventure, Comedy,119,5.6,"19,267"
+The Bad Guys,2022, Adventure, Comedy,100,6.8,"41,895"
+Sing 2,2021, Adventure, Comedy,110,7.4,"70,308"
+"Lyle, Lyle, Crocodile",2022, Adventure, Comedy,106,6.1,"6,049"
+The Amazing Maurice,2022, Adventure, Comedy,93,6.3,"1,210"
+DC League of Super-Pets,2022, Action, Adventure,105,7.2,"64,180"
+Cyberpunk: Edgerunners,2022, Action, Adventure,24,8.3,"48,479"
+Lightyear,2022, Action, Adventure,100,6,"106,041"
+Turning Red,2022, Adventure, Comedy,100,7,"123,089"
+Minions: The Rise of Gru,2022, Adventure, Comedy,87,6.6,"65,244"
+Marcel the Shell with Shoes On,2021, Comedy, Drama,90,7.8,"9,026"
+Raya and the Last Dragon,2021, Action, Adventure,107,7.3,"153,548"
+Mad God,2021, Fantasy, Horror,83,6.8,"9,381"
+The Sea Beast,2022, Adventure, Comedy,115,7.1,"42,144"
+Soul,2020, Adventure, Comedy,100,8,"332,406"
+Night at the Museum: Kahmunrah Rises Again,2022, Adventure, Comedy,77,5,"1,450"
+The Witcher: Nightmare of the Wolf,2021, Action, Adventure,83,7.2,"45,456"
+Entergalactic,2022, Comedy, Music,93,7.4,"9,821"
+Suzume no tojimari,2022, Action, Adventure,122,7.9,693
+Scrooge: A Christmas Carol,2022, Adventure, Comedy,96,6.2,"5,563"
+The Mitchells vs the Machines,2021, Adventure, Comedy,114,7.6,"110,431"
+Luca,2021, Adventure, Comedy,95,7.4,"165,220"
+Wendell & Wild,2022, Adventure, Comedy,105,6.4,"8,684"
+The Croods: A New Age,2020, Adventure, Comedy,95,6.9,"44,688"
+Trolls World Tour,2020, Adventure, Comedy,91,6.1,"24,159"
+Chip 'n Dale: Rescue Rangers,2022, Adventure, Comedy,97,7,"41,025"
+Hotel Transylvania: Transformania,2022, Adventure, Comedy,87,6,"31,809"
+Apollo 10 1/2: A Space Age Adventure,2022, Adventure, Drama,97,7.2,"9,054"
+Rumble,2021, Comedy, Family,95,5.9,"7,136"
+Ryû to sobakasu no hime,2021, Adventure, Drama,121,7.1,"12,825"
+Paws of Fury: The Legend of Hank,2022, Action, Comedy,98,5.7,"4,572"
+Doragon bôru sûpâ: Sûpâ hîrô,2022, Action, Adventure,100,7.1,"9,801"
+PAW Patrol: The Movie,2021, Action, Adventure,86,6.1,"6,532"
+The Addams Family 2,2021, Adventure, Comedy,93,5.4,"13,273"
+Space Jam: A New Legacy,2021, Adventure, Comedy,115,4.5,"72,823"
+Ron's Gone Wrong,2021, Adventure, Comedy,107,7,"34,792"
+Pantheon,2022, Action, Drama,41,8.2,"2,747"
+Kimetsu no Yaiba: Mugen Ressha-Hen,2020, Action, Adventure,117,8.2,"59,268"
+My Father's Dragon,2022, Adventure, Comedy,99,6.6,"1,950"
+The Ice Age Adventures of Buck Wild,2022, Adventure, Comedy,82,4.3,"14,021"
+Gekijouban Jujutsu Kaisen 0,2021, Action, Fantasy,105,7.8,"20,111"
+Clifford the Big Red Dog,2021, Adventure, Comedy,96,5.9,"14,061"
+The Bob's Burgers Movie,2022, Adventure, Comedy,102,7,"17,745"
+Wish Dragon,2021, Adventure, Comedy,98,7.2,"27,889"
+WolfWalkers,2020, Adventure, Family,103,8,"33,312"
+The Boss Baby: Family Business,2021, Adventure, Comedy,107,5.9,"18,955"
+The First Slam Dunk,2022, Comedy, Drama,124,8.6,413
+Injustice,2021, Action, Adventure,78,6.4,"13,167"
+One Piece Film Red,2022, Action, Adventure,115,6.9,"8,427"
+The Midnight Gospel,2020, Adventure, Comedy,23,8.2,"20,273"
+Scoob!,2020, Adventure, Comedy,93,5.6,"27,389"
+The SpongeBob Movie: Sponge on the Run,2020, Adventure, Comedy,91,5.9,"18,900"
+Back to the Outback,2021, Adventure, Comedy,95,6.5,"8,772"
+Kimetsu no Yaiba: Tsuzumi Yashiki Hen,2021, Action, Fantasy,87,9,"15,006"
+Inu-oh,2021, Drama, Fantasy,98,7.3,826
+My Little Pony: A New Generation,2021, Adventure, Comedy,90,6.8,"3,933"
+The Seven Deadly Sins: Grudge of Edinburgh Part 1,2022, Action, Adventure,52,5.4,294
+Pinokkio. Pravdivaya istoriya,2021, Family, Fantasy,80,3.7,"1,487"
+Masters of the Universe: Revelation,2021, Action, Adventure,25,5.4,"27,050"
+Diary of a Wimpy Kid: Rodrick Rules,2022, Comedy, Drama,74,5.2,806
+Beavis and Butt-Head Do the Universe,2022, Comedy, Sci-Fi,87,7,"11,179"
+Marmaduke,2022, Adventure, Comedy,88,3.2,"3,749"
+Green Lantern: Beware My Power,2022, Adventure, Sci-Fi,88,6.1,"2,720"
+The Soccer Football Movie,2022, Comedy, Family,73,3.1,789
+Ame wo Tsugeru Hyôryû Danchi,2022, Adventure, Drama,119,6.2,"2,183"
+Tadeo Jones 3. La tabla esmeralda,2022, Adventure, Comedy,90,5.9,906
+Blaze,2022, Crime, Drama,101,6.1,452
+Rise of the Teenage Mutant Ninja Turtles,2022, Action, Adventure,82,6,"4,991"
+Over the Moon,2020, Adventure, Comedy,95,6.3,"22,934"
+Fireheart,2022, Adventure, Comedy,92,6.2,"2,236"
+Shin Evangelion Gekijôban,2021, Action, Drama,154,8,"11,074"
+Q-Force,2021, Action, Adventure,30,6.6,"5,796"
+Boku no Hero Academia: World Heroes Mission,2021, Action, Adventure,101,7.1,"4,307"
+Mortal Kombat Legends: Snow Blind,2022, Action, Adventure,82,6.6,"1,696"
+Spirit Untamed,2021, Adventure, Comedy,88,5.5,"3,875"
+America: The Motion Picture,2021, Action, Adventure,98,5.6,"6,698"
+Hopper et le hamster des ténèbres,2022, Adventure, Comedy,91,6.3,"1,868"
+"Batman: The Long Halloween, Part One",2021, Action, Crime,85,7.2,"17,052"
+The Willoughbys,2020, Adventure, Comedy,90,6.3,"19,578"
+Extinct,2021, Adventure, Comedy,84,5.5,"2,878"
+AINBO: Spirit of the Amazon,2021, Adventure, Comedy,84,4.8,"1,860"
+Baburu,2022, Action, Adventure,100,6.3,"5,992"
+Finnick,2022, Adventure, Family,85,5.9,223
+Dorohedoro,2020, Action, Comedy,25,8.1,"9,132"
+Gekijouban Violet Evergarden,2020, Drama, Fantasy,140,8.3,"7,341"
+Catwoman: Hunted,2022, Action, Crime,78,5.6,"2,707"
+Nakitai watashi wa neko o kaburu,2020, Adventure, Drama,104,6.7,"10,883"
+Cryptozoo,2021, Fantasy,,95,6.4,"1,846"
+Aqua Teen Forever: Plantasm,2022, Comedy,,79,6.3,499
+Justice Society: World War II,2021, Action, Adventure,84,6.4,"7,738"
+Tower of God,2020, Action, Adventure,23,7.7,"5,971"
+The Loud House,2021, Adventure, Comedy,83,6.1,"2,263"
+Bigfoot Family,2020, Adventure, Family,89,5.8,"3,021"
+Kipo and the Age of Wonderbeasts,2020, Action, Adventure,24,8.3,"6,107"
+Le sommet des dieux,2021, Adventure, Drama,95,7.5,"6,648"
+Trick or Treat Scooby-Doo!,2022, Adventure, Comedy,72,5.8,"1,478"
+Trollhunters: Rise of the Titans,2021, Action, Adventure,104,6.7,"5,202"
+Made in Abyss: Fukaki Tamashî no Reimei,2020, Adventure, Drama,113,8,"4,169"
+Riverdance: The Animated Adventure,2021, Adventure, Comedy,90,5.5,"2,050"
+Hit-Monkey,2021, Action, Adventure,22,7.8,"7,439"
+Batman: The Long Halloween,2021, Action, Crime,168,7.5,606
+The Prince,2021, Comedy,,14,5.6,"2,962"
+Seal Team,2021, Action, Comedy,101,5.6,"1,525"
+Diary of a Wimpy Kid,2021, Comedy, Drama,58,5.1,"3,353"
+Ore dake Haireru Kakushi Dungeon,2021, Action, Adventure,24,6.4,"1,583"
+Minions & More 1,2022, Adventure, Comedy,48,6.5,"1,375"
+"Batman: The Long Halloween, Part Two",2021, Action, Crime,87,7.1,"13,997"
+Shchelkunchik i volshebnaya fleyta,2022, Family, Fantasy,90,6,60
+Mortal Kombat Legends: Scorpion's Revenge,2020, Action, Adventure,80,7.4,"17,937"
+The Spine of Night,2021, Action, Adventure,93,6.4,"2,281"
+Centaurworld,2021, Short, Adventure,25,7.7,"2,271"
+Pil,2021, Adventure, Family,89,6.1,821
+Knor,2022, Comedy, Family,72,7.6,349
+Minions & More 2,2022, Adventure, Comedy,50,6.4,471
+Hoops,2020, Comedy, Sport,25,6,"6,574"
+Mechamato Movie,2022, Action, Adventure,120,8,135
+Mortal Kombat Legends: Battle of the Realms,2021, Action, Adventure,80,6.5,"6,942"
+100% Wolf,2020, Adventure, Comedy,96,5.6,"1,957"
+The God of High School,2020, Action, Adventure,24,7.3,"6,713"
+Dragon Rider,2020, Adventure, Comedy,91,5.7,"1,794"
+Kimetsu no Yaiba: Natagumo Yama Hen,2020, Action, Fantasy,138,8.8,"11,775"
+Where Is Anne Frank,2021, Drama, Family,99,6.5,"1,094"
+Ooops! The Adventure Continues,2020, Adventure, Comedy,85,5.8,657
+Shika no ou,2021, Action, Adventure,113,6.4,505
+Hope's Legacy,2021, Drama, Family,103,5.9,82
+Ernest et Célestine: Le voyage en Charabie,2022, Adventure, Family,80,7.1,121
+Fruits Basket: Prelude,2022, Drama, Romance,88,7.6,453
+M.O.D.O.K.,2021, Action, Comedy,22,6.4,"5,451"
+Gekijôban Sword Art Online Progressive Hoshi naki yoru no Aria,2021, Action, Adventure,97,7.2,"1,379"
+Le petit Nicolas: Qu'est-ce qu'on attend pour être heureux ?,2022, Family,,82,7.2,231
+Teen Titans Go! & DC Super Hero Girls: Mayhem in the Multiverse,2022, Action, Adventure,79,5.5,436
+A Tale Dark & Grimm,2021, Action, Adventure,26,7.3,"1,551"
+Moonbound,2021, Adventure, Comedy,85,4.8,505
+Santa Inc.,2021, Comedy,,30,1.6,"15,038"
+Batman: Soul of the Dragon,2021, Action, Adventure,83,6.1,"6,275"
+Folk og røvere i Kardemomme by,2022, Family,,78,7.5,75
+Totsukuni no shôjo,2022, Fantasy, Mystery,70,6.7,320
+Jungle Beat: The Movie,2020, Adventure, Comedy,88,5.4,"1,113"
+A Christmas Carol,2020, Drama,,94,5.1,340
+Around the World in 80 Days,2021, Adventure, Comedy,82,4.7,665
+Gleipnir,2020, Action, Fantasy,24,6.8,"1,503"
+Deathstroke Knights & Dragons: The Movie,2020, Action, Adventure,87,6.3,"3,773"
+Mia and Me: The Hero of Centopia,2022, Adventure, Family,85,5.7,491
+Rock Dog 3 Battle the Beat,2022, Adventure, Comedy,90,8.5,22
+Kaguya-sama wa Kokurasetai: First Kiss wa Owaranai,2022, Comedy, Romance,90,8.8,39
+"Gubbai, Don Gurîzu!",2021, Adventure, Drama,95,6.8,199
+ID:Invaded,2020, Crime, Drama,24,7.6,"2,829"
+The SpongeBob SquarePants Movie Rehydrated,2022, Adventure, Comedy,87,8.3,136
+Altered Carbon: Resleeved,2020, Action, Crime,74,6.5,"6,370"
+Cider no yô ni kotoba ga wakiagaru,2020, Drama, Music,87,6.8,"4,249"
+Ai no utagoe o kikasete,2021, Drama, Music,109,7.2,515
+Vampire in the Garden,2022, Action, Adventure,25,6.7,"1,316"
+Unicorn Wars,2022, Action, Comedy,80,6.9,249
+"Hansel, Gretel i Agentstvo Magii",2021, Adventure, Comedy,103,6.2,"4,294"
+Joze to tora to sakanatachi,2020, Drama, Romance,99,7.6,"5,411"
+Phineas and Ferb the Movie: Candace Against the Universe,2020, Adventure, Comedy,86,7.1,"4,725"
+Rock Dog 2,2021, Adventure, Comedy,87,5,416
+Coppelia,2021, Family, Sci-Fi,82,6,131
+Mavka. Lisova pisnya,2022, Comedy, Fantasy,90,8.9,13
+Bai She 2: Qing She jie qi,2021, Action, Adventure,131,6.7,"2,705"
+Eiga Go-Toubun no Hanayome,2022, Comedy, Drama,136,7.3,914
+Gekijouban Bishoujo Senshi Sailor Moon Eternal,2021, Action, Adventure,160,7,"1,340"
+Monster Family 2,2021, Comedy, Family,103,4.8,873
+Shingeki no Kyojin: Chronicle,2020, Action, Adventure,122,8.5,"10,540"
+Bolshoye puteshestviye. Spetsialnaya dostavka,2022, Adventure, Comedy,90,5,204
+Kimetsu no Yaiba: Asakusa Hen,2021, Action, Fantasy,103,8.7,"2,267"
+Gekijouban Fate/Stay Night: Heaven's Feel - III. Spring Song,2020, Action, Adventure,120,7.9,"2,095"
+Cats & Dogs 3: Paws Unite,2020, Action, Adventure,84,3.8,"1,005"
+Night of the Animated Dead,2021, Horror,,71,4.5,679
+Finding Jesus,2020, Family, Fantasy,69,1.1,621
+Glitch Techs,2020, Action, Adventure,25,7.7,"1,542"
+Alien Worlds,2020, , Sci-Fi,42,6.5,"3,789"
+Buka. Moyo lyubimoe chudishche,2021, Adventure, Family,98,4.9,331
+Eiga daisuki Pompo-san,2021, Comedy, Drama,94,7.2,714
+Drømmebyggerne,2020, Adventure, Comedy,81,6,"1,523"
+Kidô senshi Gandamu: Senkô no Hasauei,2021, Action, Drama,95,6.6,"1,565"
+Gintama: The Final,2021, Action, Comedy,104,8.5,"2,473"
+Detective Conan: The Bride of Halloween,2022, Action, Crime,111,6.9,975
+Umibe no Étranger,2020, Drama, Romance,59,7.1,"1,873"
+You Are My Home,2020, Family, Fantasy,92,6.6,585
+The Timekeepers of Eternity,2021, Horror, Mystery,64,7,173
+Goblin Slayer: Goblin's Crown,2020, Action, Adventure,85,6.6,"1,556"
+Kimetsu no Yaiba: Hashira Gou Kaigi - Chouyashiki Hen,2020, Action, Fantasy,106,8.5,"2,892"
+Kidô senshi Gundam Cucuruz Doan no shima,2022, Action, Drama,109,6.5,194
+Paw Patrol: Jet to the Rescue,2020, Adventure, Family,56,5.6,227
+Digimon Adventure: Last Evolution Kizuna,2020, Action, Adventure,94,7.5,"1,630"
+Lamya's Poem,2021, Adventure, Family,89,7.5,49
+Ultra City Smiths,2021, Comedy, Crime,18,6.6,349
+Angela's Christmas Wish,2020, Adventure, Comedy,47,7.1,"1,593"
+ThunderCats Roar,2020, Action, Comedy,11,2.1,"2,585"
+Gekijouban Nanatsu no Taizai: Hikari ni Norowareshi Mono-tachi,2021, Action, Adventure,79,6.3,"1,080"
+Xin shen bang: Yang Jian,2022, Action, Fantasy,127,6.5,282
+Bobbleheads: The Movie,2020, Family,,82,2.3,396
+The Harper House,2021, Comedy,,30,5.2,336
+Gyokô no Nikuko-chan,2021, Comedy, Drama,97,6.8,611
+Kemono Jihen,2021, Action, Fantasy,24,7.3,"1,525"
+Bright: Samurai Soul,2021, Action, Adventure,80,5.5,910
+The Pink Panther,2022, Comedy, Family,90,8.6,18
+Kyochuu Rettou,2020, Adventure, Horror,80,4.1,221
+Deathstroke: Knights & Dragons,2020, Action, Adventure,92,6.6,"2,454"
+Xiong shi shao nian,2021, Comedy, Drama,104,7.6,"1,055"
+Pattie et la colère de Poséidon,2022, Adventure, Comedy,95,8.8,7
+Eiga Karakai Jouzu no Takagi-san,2022, Comedy, Romance,73,7.7,251
+Koati,2021, Adventure, Family,92,5.2,224
+Kamiarizuki no kodomo,2021, Adventure, Drama,99,5.9,969
+Un rescate de huevitos,2021, Adventure, Comedy,88,5.4,210
+Josep,2020, Biography, Drama,71,7.4,"1,901"
+Xin shen bang: Ne Zha chong sheng,2021, Action, Fantasy,118,6.8,"3,362"
+Fearless,2020, Comedy, Family,89,4.9,"1,817"
+Yuku et la fleur de l'Himalaya,2022, Family,,62,7.3,40
+Burn the Witch,2020, Action, Fantasy,63,6.7,974
+Gulliver Returns,2021, Adventure, Family,90,4.5,243
+My Love Affair with Marriage,2022, Comedy, Drama,107,7.4,129
+Titina,2022, Adventure, Family,91,8,80
+Quantum Cowboys,2022, Comedy, Sci-Fi,99,7.5,71
+Adventure Beast,2021, Adventure, Comedy,20,5.3,607
+Kôkaku kidôtai SAC_2045 Jizoku kanô sensô,2021, Action, Sci-Fi,119,5.9,358
+Angry Birds: Summer Madness,2022, Short, Action,11,5.8,735
+Sabikui Bisco,2022, Action, Adventure,24,7,790
+Smelliville,2021, Adventure, Family,85,5.1,322
+Gekijouban Poketto monsutâ: koko,2020, Action, Adventure,99,6.4,"2,127"
+D'Artacán y los tres Mosqueperros,2021, Family, Romance,84,5.2,375
+"Happy Halloween, Scooby-Doo!",2020, Adventure, Comedy,80,6.2,"1,687"
+"Yakari, le film",2020, Adventure, Family,82,6.3,424
+Die Mucklas ... und wie sie zu Pettersson und Findus kamen,2022, Adventure, Family,81,4.7,48
+"Saules aveugles, femme endormie",2022, Drama, Sci-Fi,100,7.3,100
+Santaman,2022, Adventure, Family,87,4.1,61
+Koshchey. Pokhititel nevest,2022, Adventure, Comedy,76,5.8,107
+Eiga Entotsumachi no Puperu,2020, Family, Fantasy,100,6.4,470
+Lego DC Shazam!: Magic and Monsters,2020, Action, Adventure,81,6.2,"1,078"
+The Bacon Hair,2020, Action, Adventure,76,8.1,116
+Bamse och vulkanön,2021, Adventure, Family,69,5.5,156
+Icare,2022, Adventure, Family,76,6.8,185
+Christmas Thieves,2021, Comedy, Family,77,4,157
+I mysi patrí do nebe,2021, Adventure, Comedy,80,6.6,520
+Petit vampire,2020, Family, Fantasy,85,6.3,439
+Yes ka No ka Hanbun ka,2020, Comedy, Drama,53,6.8,468
+Lonely Castle in the Mirror,2022, Drama, Fantasy,116,7.1,15
+Ternet Ninja 2,2021, Action, Adventure,86,6.9,"1,538"
+Supreme Motherhood: The Journey of Mata Sahib Kaur,2022, Adventure, History,100,9.2,90
+Ella and the Little Sorcerer,2021, Adventure, Family,86,4.2,260
+Riki Rhino,2020, Adventure, Family,92,6.1,52
+Stand by Me Doraemon 2,2020, Comedy, Drama,96,7.5,"4,144"
+Saezuru Tori Wa Habatakanai: The Clouds Gather,2020, Crime, Drama,85,6.8,765
+Kimi wa kanata,2020, Drama, Fantasy,95,5.4,256
+Die Häschenschule - Der große Eierklau,2022, Adventure, Comedy,76,5.5,201
+Norm of the North: Family Vacation,2020, Adventure, Comedy,90,3,307
+Tom and Jerry: Snowman's Land,2022, Adventure, Comedy,76,4.9,164
+The Larva Island Movie,2020, Adventure, Comedy,89,5.1,693
+Muumipapan urotyöt - erään nuoren muumin seikkailut,2021, Adventure, Family,74,5.7,33
+Cranston Academy: Monster Zone,2020, Adventure, Family,85,5.1,"1,058"
+Nussa: The Movie,2021, Adventure, Comedy,107,7.4,527
+Helt super,2022, Family,,76,6.3,29
+Little Foot,2020, Family,,72,3.9,40
+Kimi o Aishita Hitori no Boku e,2022, Fantasy, Romance,98,5.7,10
+Owl Pellets,2020, Short, Comedy,1,8.2,32
+Fate Grand Order: The Grand Temple of Time,2021, Action, Drama,94,6.6,238
+Mushikago no Cagaster,2020, Action, Drama,29,6.1,691
+Elliott from Earth,2021, Comedy, Family,12,7.7,345
+Meitantei Conan: Hiiro no dangan,2021, Action, Crime,110,6.2,"1,275"
+JJ Villard's Fairy Tales,2020, Comedy, Horror,11,5.8,320
+Maou-jou de Oyasumi,2020, Comedy, Fantasy,23,7.5,587
+Knutsen & Ludvigsen 2 - Det store dyret,2020, Comedy, Family,78,5.9,194
+Curious George: Cape Ahoy,2021, Adventure, Comedy,88,6.6,79
+Yesterday wo Utatte,2020, Drama, Romance,23,6.9,829
+Καραγκιόζης the Movie,2022, Comedy, Family,74,6.3,12
+Adam by Eve: A live in Animation,2022, Music,,58,6.1,459
+Maya the Bee 3: The Golden Orb,2021, Adventure,,88,5.3,292
+The Millionaire Detective: Balance - Unlimited,2020, Crime, Drama,23,7.3,"1,909"
+Félix et le trésor de Morgäa,2021, Adventure, Family,85,5.4,369
+Mugge & hans mærkelige hjerne,2022, Comedy, Family,84,5,37
+El Deafo,2022, Short, Adventure,25,8.3,101
+The Academy of Magic,2020, Fantasy,,86,3.3,"2,979"
+City of Ghosts,2021, Adventure, Family,20,7.6,420
+The Great Wolf Pack: A Call to Adventure,2022, Adventure, Comedy,47,8.2,24
+Fazbear: The Fallen Child,2022, Comedy, Horror,46,7,11
+Misaki no Mayoiga,2021, Drama, Family,100,6.7,145
+Octonauts & the Great Barrier Reef,2020, Action, Adventure,47,6.7,159
+Moje slunce Mad,2021, Drama,,85,6.7,322
+True North,2020, Drama,,93,6.9,248
+Ivan Tsarevich i Seryy Volk 5,2022, Adventure, Family,78,5.4,8
+Rotzbub,2021, Comedy, Drama,86,6.6,311
+Toldi - Movie,2022, Adventure, Family,103,8.3,92
+Koi to Yobu ni wa Kimochi Warui,2021, Comedy, Romance,24,7.1,801
+Devil May Care,2021, Comedy,,12,6.1,374
+SSSS.Dynazenon,2021, Action, Adventure,24,6.7,272
+El Camino de Xico,2020, Family, Fantasy,85,5.1,578
+Eflâtun,2022, Drama, Romance,103,5.2,263
+"Calamity, une enfance de Martha Jane Cannary",2020, Adventure, Comedy,85,7.2,543
+Xiong chu mo: Chong fan di qiu,2022, Comedy, Family,97,5.9,168
+Fate/Grand Order: Shinsei Entaku Ryouiki Camelot 1 - Wandering; Agateram,2020, Action, Drama,90,6.1,284
+Psycho-Pass 3: First Inspector,2020, Action, Sci-Fi,135,7.4,742
+Burû sâmaru,2022, Drama, Romance,103,6.6,166
+Zabij to i wyjedz z tego miasta,2020, Drama, Horror,88,6.6,936
+Pets,2020, Comedy, Family,60,6.5,58
+Magical Girl Friendship Squad,2020, Short, Comedy,12,3.3,"1,431"
+The Donkey King,2020, Adventure, Comedy,98,5.1,241
+Thomas & Friends: Race for the Sodor Cup,2021, Family, Musical,60,3.7,88
+Tromba Trem: O Filme,2022, Adventure, Comedy,94,9.1,46
+My Fairy Troublemaker,2022, Adventure, Comedy,85,6.8,24
+Combat Wombat,2020, Family, Fantasy,90,5.2,233
+Tribe Nine,2022, Action, Adventure,24,5.4,142
+Kakushigoto,2020, Comedy, Drama,23,7.4,854
+Elleville Elfrid,2020, Family, Musical,75,4.8,295
+Ganbare Douki-chan,2021, Comedy, Romance,6,6.2,273
+"Le pharaon, le sauvage et la princesse",2022, Family,,83,7,95
+Nahuel y el Libro Mágico,2020, Adventure, Family,98,6.5,229
+Bigfoot vs the Illuminati,2020, Horror, Sci-Fi,76,2.9,123
+Octonauts and the Caves of Sac Actun,2020, Adventure, Comedy,72,6.3,197
+Eiga Yurukyan,2022, Adventure, Comedy,120,7.6,160
+Majo minarai wo sagashite,2020, Adventure, Comedy,91,6.7,188
+Pelle Svanslös,2020, Family, Musical,67,5.5,221
+Under the Sea,2020, Family,,81,7.1,87
+Blokhavn,2020, Comedy,,76,5.1,141
+The Swan Princess: A Royal Wedding,2020, Adventure, Comedy,83,5.7,114
+Malchik-delfin,2022, Adventure, Comedy,90,6.3,390
+TeraStorm,2022, Action, Sci-Fi,62,8.9,17
+The Rodfellows Movie,2020, Adventure, Comedy,117,3.2,97
+Lille Allan - den menneskelige antenne,2022, Adventure, Family,85,5.8,66
+Hayop ka!,2020, Comedy, Romance,73,6.4,284
+Fate/kaleid liner Prisma Illya,2021, Drama, Fantasy,94,7.1,61
+Boom and Topper: Safari Hunters,2020, Action, Adventure,141,3.2,17
+Mamma Mu hittar hem,2021, Family,,65,6.5,70
+Gekijouban Isekai Quartet: Another World,2022, Comedy, Fantasy,112,7.2,42
+Nosferatu Re-Animated,2020, Horror,,79,7.5,29
+Xi you ji zhi Zai shi yao wang,2021, Action, Fantasy,95,6,432
+Goodbye Monster,2022, Adventure, Comedy,99,5.6,22
+Fate/Grand Order The Movie Divine Realm Of The Round Table: Camelot Paladin; Agateram,2021, Action, Drama,96,6.7,197
+Princesse Dragon,2021, Family, Fantasy,70,7.7,77
+Snezhnaya koroleva: Razmorozka,2022, Adventure, Fantasy,80,6,19
+Little Singham: Kaal Ka Badla,2020, Action,,69,7.2,35
+Eiga Odd Taxi: In the Woods,2022, Mystery, Thriller,128,6.2,95
+Jiang Ziya,2020, Action, Adventure,110,6.5,"1,928"
+Barbie Princess Adventure,2020, Family, Musical,72,5.5,532
+Horse Julius and Big Horse Racing,2020, Adventure, Comedy,77,5.4,229
+Kureyon Shinchan: Gekitotsu Rakugakingudamu to Hobo Shi-Ri no Yusha,2020, Action, Adventure,103,6.5,244
+Brightheart 2: Firefly Action Brigade,2020, Family, Fantasy,85,6.1,56
+Hello Jadoo: The Secret of Jeju Island,2022, Adventure, Comedy,90,8.2,300
+Ryouma! The Prince of Tennis Shinsei Gekijouban Tennis no Ouji-sama,2021, Action, Musical,100,5.7,34
+Chink: Khostatiy detektiv,2022, Adventure, Family,85,4.7,11
+Nayola,2022, Fantasy,,90,7.6,45
+Boku ga Aishita Subete no Kimi e,2022, Fantasy, Romance,102,5.9,11
+Yong zhi cheng,2021, Action, Adventure,111,6.2,167
+Tri bogatyrya i Kon' na trone,2021, Adventure, Comedy,91,5.5,207
+Magic Arch 3D,2020, Family, Fantasy,82,4.2,357
+Girls und Panzer das Finale: Part III,2021, Action, Comedy,48,7.3,123
+Gekijouban Shoujo Kageki Revue Starlight,2021, Action, Drama,120,8,128
+Mystery of the Kingdom of God,2021, Family,,91,2.5,96
+Las Leyendas: El Origen,2022, Adventure, Comedy,120,6.3,48
+Tom and Jerry in New York,2021, Short, Adventure,21,7,363
+Jul på KuToppen,2020, Family,,68,6,87
+Space Dogs: Tropical Adventure,2020, Action, Adventure,80,7,495
+Doraemon the Movie: Nobita's Little Star Wars 2021,2022, Action, Adventure,108,6.6,382
+Toxic Alien Zombie Babes from Outer Space,2022, Action, Comedy,126,3.3,28
+Uchuu senkan Yamato 2205: Aratanaru tabidachi,2021, Action, Sci-Fi,103,7.4,22
+Deemo,2021, Fantasy, Music,89,6.1,28
+Yabba Dabba Dinosaurs,2020, Short, Adventure,22,4.8,120
+Crayon Shin-chan: Mononoke Ninja Chinpuden,2022, Comedy,,100,7.8,100
+Apstjärnan,2021, Family,,75,5.7,134
+Dinosaur Train: Adventure Island,2021, Adventure, Family,85,7.1,55
+Ogoniok-ognivo,2020, Family, Fantasy,88,5.4,301
+Gajaman,2022, Comedy,,99,9,148
+Suvorov: Velikoye puteshestviye,2022, Adventure, History,85,4,38
+Pets 2,2021, Comedy, Family,65,4.8,39
+Tom and Jerry: Cowboy Up!,2021, Adventure, Comedy,71,5.2,505
+Tarsilinha,2021, Adventure, Comedy,93,8.2,71
+Ookami-san wa Taberaretai,2020, Short,,4,6.7,57
+The Store,2022, Drama,,143,7,6
+Muumipeikko ja pyrstötähti,2021, Adventure, Family,75,7.7,12
+Eiga Doraemon: Nobita no shin kyôryû,2020, Adventure, Comedy,110,7.1,"1,071"
+Gigigoegoe seonghyeongsu,2020, Horror, Thriller,85,6.1,732
+Titus: Mystery of The Enygma,2020, Adventure, Comedy,95,8,72
+Zeria,2021, Sci-Fi,,61,6.4,19
+Istanbul Muhafizlari: 100 Yilin Muhafizlari,2021, Adventure,,60,5.7,40
+Xi yang yang yu hui tai lang zhi kuang chu wei lai,2022, Drama, Sport,94,7.2,72
+"The Absurd, Surreal, Metaphysical and Fractured Destiny of Cerebus the Aardvark",2021, Adventure, Comedy,70,6.2,23
+Meitantei Conan: Hiiro no fuzai shômei,2021, Crime, Mystery,93,6.2,277
+Deadpool Movie in Lego,2021, Action, Adventure,108,8.5,64
+Iwa Kakeru! Sport Climbing Girls,2020, Sport,,24,6.1,216
+Crayon Shin-chan: Shrouded in Mystery! The Flowers of Tenkasu Academy,2021, Mystery,,104,7.2,313
+Journey to Yourland,2022, Adventure, Family,85,7.6,10
+Barboskiny Team,2022, Musical,,75,3.8,14
+Koshchey: Nachalo,2021, Adventure, Family,90,5.7,129
+BanG Dream! Poppin'Dream!,2022, Comedy, Music,70,8.1,19
+Princess Principal Crown Handler: Chapter 1,2021, Action, Adventure,54,7.8,79
+Barkers: Mind the Cats!,2020, Adventure, Family,77,5.2,66
+Presto! School of Magic,2021, Action, Comedy,11,6.4,6
+Barber Westchester,2022, Drama,,78,7.3,30
+The Pole,2021, Short, Comedy,13,5.4,125
+Fukrey Boyzzz: Space Mein Fukrapanti,2020, Comedy, Family,74,8.5,15
+"Chien Pourri, la vie à Paris!",2020, Adventure, Comedy,60,7,34
+Gekijouban Macross Delta: Zettai Live!!!!!!,2021, Action, Adventure,110,7.2,21
+Gekijôban Shirobako,2020, Comedy, Drama,119,7.1,216
+Wild Life,2020, Short, Comedy,12,6,140
+"Hataraku Saibo!! Saikyo no Teki, Futatabi. Karada no Naka wa Cho Osawagi!",2020, Action, Sci-Fi,115,7.2,96
+Spaced Cats,2020, Comedy, Sci-Fi,69,5,16
+Chun Tae-Il,2021, Biography, Drama,99,7.2,37
+Eiga Sumikkogurashi: Aoi tsukiyo no mahô no ko,2021, Family, Fantasy,65,6.3,26
+Free! the Final Stroke,2021, Drama, Sport,86,6.9,113
+Açela,2020, Adventure, Comedy,70,2.8,"3,820"
+Absolute Denial,2021, Sci-Fi,,71,7.5,70
+Brandon Bott Gets Grounded: The Movie,2021, Comedy, War,87,2.7,18
+Meine Freundin Conni - Geheimnis um Kater Mau,2020, Adventure,,80,6.2,117
+Meu Tio José,2021, Drama,,89,7.8,21
+Break of Dawn,2022, Sci-Fi,,120,4.9,9
+The Magic School Bus Rides Again: Kids in Space,2020, Adventure, Comedy,45,6.2,89
+Freddy vs. Jason vs. Ash Comic Film,2020, Horror,,72,7.1,16
+High School Fleet the Movie,2020, Action, Adventure,105,8,67
+Kimetsu Orchestra Concert,2021, Music,,114,8.5,192
+Horrid Henry's Gross Day Out,2020, Action, Adventure,61,5.8,47
+Aria the Benedizione,2021, Drama, Sci-Fi,60,7.6,34
+Chong chu di qiu,2022, Sci-Fi,,100,5.5,23
+Kek - The Movie,2021, Comedy,,73,8.9,12
+Dônika naru hibi,2020, Drama, Romance,54,5.6,109
+Adit Sopo Jarwo: The Movie,2021, Comedy, Drama,82,7.2,98
+Enchantimals: Spring Into Harvest Hills,2020, Action, Adventure,45,6.6,35
+Battleworld,2022, Action, Adventure,205,8.1,8
+Jurassic Planet,2021, Comedy, Family,61,7,56
+Meta Runner Season 1 (Full Movie Cut),2020, Action, Adventure,124,8.4,16
+Go! Go! Cory Carson: Chrissy Takes the Wheel,2021, Family,,60,6.5,44
+Turkey Day,2020, Comedy,,80,2.2,14
+Frank & Zed,2020, Horror,,90,7.1,99
+The Red Scroll,2020, Adventure, Family,90,8,84
+Zara & Erika: A Tale of Annabelle,2021, Action, Adventure,90,6.9,20
+La Liga de los 5,2020, Action, Comedy,89,6.3,139
+Super Mario Bros. Z 4K,2020, Action, Adventure,200,8.8,23
+Sonic Rebuilt,2020, Comedy,,61,7.4,36
+Master Ji Gong,2021, Adventure, Fantasy,93,6.4,22
+Shrimad Rajchandra,2021, Biography, Family,100,9.3,53
+Houkago Teibou Nisshi,2020, Comedy, Drama,23,7.2,150
+Gal to Kyouryuu,2020, Comedy,,25,6.9,44
+Thomas & Friends: Marvelous Machinery,2020, Action, Adventure,45,6.1,16
+The Thanksgiving Movie,2020, Family,,77,4.7,23
+Black Beauty,2021, Adventure, Drama,70,5.2,6
+Groundhog Dave 2,2020, Comedy,,68,5.8,16
+Monstruosamente Solo,2020, Comedy, Drama,88,7.4,21
+Wrath of the Tarot Kings,2022, Action, Adventure,105,8.8,9
+Les voisins de mes voisins sont mes voisins,2021, Family,,93,5.8,28
+Slucajna raskos prozirnog vodenog rebusa,2020, Fantasy, Thriller,81,6.1,238
+Louisa: An Amazing Adventure,2021, Adventure,,62,7.8,21
+Miao Xian Sheng,2020, Adventure, Fantasy,89,5.8,82
+Buurman & Buurman: Bakken En Grillen,2021, Family,,60,8.3,28
+Left Hook,2020, Crime, Drama,92,6.9,13
+Hello! Tapir,2020, Drama, Fantasy,88,6.6,33
+Shoujo Kageki Revue Starlight: Rondo Rondo Rondo,2020, Drama, Music,119,8.2,44
+Fura furadansu,2021, Comedy, Drama,108,5.2,8
+Uchû senkan Yamato 2205: Aratanaru tabidachi kôshô -STASHA-,2022, Sci-Fi,,102,6.8,8
+Barevný sen,2020, Family,,74,7.1,16
+When Stars Align,2020, Adventure, Fantasy,45,8.2,14
+Princess Principal Crown Handler: Chapter 2,2021, Action, Adventure,56,7.6,30
+Wo men de dong ao,2022, Sport,,90,5.5,26
+Bang Dream! Film Live 2nd Stage,2021, Comedy, Music,85,7.2,26
+Özcan Show,2021, Comedy,,10,5.5,50
+Kiniro Mosaic: Thank You!!,2021, Comedy,,82,6.1,19
+Victor_Robot,2020, Adventure, Sci-Fi,75,7.5,105
+Gekijouban Bang Dream! Episode of Roselia: Promise,2021, Drama, Music,77,7.7,31
+00K9,2020, Action, Comedy,70,4,14
+Süper Bir Takim,2021, Comedy,,15,5,28
+Teddy Boom!,2021, Adventure, Comedy,70,6.1,20
+Esluna: The Crown of Babylon,2021, Adventure, Fantasy,102,6.8,13
+The Embryo Who Came in from the Cold,2020, Adventure, Comedy,90,5.9,16
+Resurrection Corporation,2021, Comedy, Horror,77,7.7,16
+City of Lost Things,2020, Drama,,91,5.1,36
+00K9: No Time to Shed,2021, Comedy, Family,90,7.6,70
+Captain Pineapple - Der Film,2021, Action, Comedy,71,7.7,8
+Future's Folktales,2020, Adventure, Family,23,7.9,50
+Gekijouban Bang Dream! Episode of Roselia: Song I Am.,2021, Drama, Music,70,7.5,25
+The Nightmare Returns: A CarrotKiller101 Movie,2020, Horror,,99,8.2,6
+Zabytoye chudo,2022, Fantasy, Adventure,90,3.8,19
+Violy & Jahari: Dorm 420,2022, Comedy, Romance,89,7.4,8
+"Come in cielo, così in terra",2020, Mystery, Thriller,93,6.8,34
+The Lion Kid 2,2020, Family, Western,73,3.4,7
+My Father Mujib,2021, Biography,,49,5.9,43
+Brightheart,2020, Family, Fantasy,85,4.9,45
+Avenger Dogs 2: Wonder Dogs,2020, Comedy, Family,70,5.3,8
+April Fools Fright,2020, Comedy, Family,71,5.7,9
+Fantasy Ireland,2020, Comedy, Fantasy,11,8,31
+Röckët Stähr's Death of a Rockstar,2020, Comedy, Musical,92,8.5,30
+Casa: Perros vs. Aliens,2020, Adventure, Comedy,73,7.7,8
+Under the Sea 2,2021, Comedy, Family,70,5.8,21
+Tundama,2020, Adventure,,71,6.2,10
+Lur eta Amets,2020, Adventure,,87,7.4,79
+Dope Boys,2020, Action, Crime,87,8.5,7
+Zhen Dao Ge Zhi Chen Shi Xing,2022, Action,,100,7,6
+Gekijôban G No Reconguista II: Bellri Gekishin,2020, Action, Adventure,95,6.9,29
+Hopz,2020, Comedy, Family,60,6.2,9
+The Forevers,2020, Action, Adventure,120,7.3,32
+Keul-la-i-ming,2020, Drama, Sport,77,4.3,11
+Mutiny of the Red Water,2021, Adventure, Sci-Fi,98,8,10
+Easterland 2,2020, Family,,70,5.3,9
+Fishtales 4,2021, Family,,74,2.8,7
+Captain Vidyut,2020, Action, Comedy,77,7.4,17
+Wilson's Silence,2020, Crime, Mystery,82,7.5,120
+An Egg's Guide to Minecraft,2020, Action, Adventure,70,8,10
+Elulu,2021, Drama, Sci-Fi,61,6.2,7
+Just Speechless,2020, Crime, Drama,87,7.2,127

@@ -1,0 +1,21 @@
+"0","study <- read.csv(""study_performance.csv"")"
+"0","glimpse(study)"
+"1","Rows: 1,000"
+"1",""
+"1","
+"
+"1","Columns: 8"
+"1",""
+"1","
+"
+"1","$ gender                      [3m[38;5;246m<chr>[39m[23m ""female"", ""female"", ""female"", ""male"", ""male"", ""female"", ""f…
+$ race_ethnicity              [3m[38;5;246m<chr>[39m[23m ""group B"", ""group C"", ""group B"", ""group A"", ""group C"", ""gr…
+$ parental_level_of_education [3m[38;5;246m<chr>[39m[23m ""bachelor's degree"", ""some college"", ""master's degree"", ""a…
+$ lunch                       [3m[38;5;246m<chr>[39m[23m ""standard"", ""standard"", ""standard"", ""free/reduced"", ""stand…
+$ test_preparation_course     [3m[38;5;246m<chr>[39m[23m ""none"", ""completed"", ""none"", ""none"", ""none"", ""none"", ""comp…
+$ math_score                  [3m[38;5;246m<int>[39m[23m 72, 69, 90, 47, 76, 71, 88, 40, 64, 38, 58, 40, 65, 78, 50…
+$ reading_score               [3m[38;5;246m<int>[39m[23m 72, 90, 95, 57, 78, 83, 95, 43, 64, 60, 54, 52, 81, 72, 53…
+$ writing_score               [3m[38;5;246m<int>[39m[23m 74, 88, 93, 44, 75, 78, 92, 39, 67, 50, 52, 43, 73, 70, 58…"
+"1",""
+"1","
+"

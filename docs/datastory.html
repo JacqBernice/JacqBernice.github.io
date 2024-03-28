@@ -93,6 +93,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="./datastory.html" rel="" target="" aria-current="page">
  <span class="menu-text">My Data Story</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./datainsights.html" rel="" target="">
+ <span class="menu-text">Data Insights</span></a>
+  </li>  
 </ul>
             <div class="quarto-navbar-tools ms-auto">
 </div>
@@ -135,13 +139,76 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="visualization" class="level2">
 <h2 class="anchored" data-anchor-id="visualization">Visualization</h2>
+<div class="cell">
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'dplyr' was built under R version 4.3.2</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Attaching package: 'dplyr'</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following objects are masked from 'package:stats':
+
+    filter, lag</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union</code></pre>
+</div>
+</div>
 <p>The variables that we are visualizing would be:</p>
 <div class="cell">
 <div class="cell-output cell-output-stdout">
-<pre><code> [1] "title"        "vote_average" "vote_count"   "status"       "release_date"
- [6] "revenue"      "runtime"      "budget"       "popularity"   "genres"      </code></pre>
+<pre><code>[1] "gender"                      "parental_level_of_education"
+[3] "lunch"                       "test_preparation_course"    
+[5] "math_score"                  "reading_score"              
+[7] "writing_score"               "average_score"              </code></pre>
 </div>
 </div>
+<p><br></p>
+<p>Gender and Average Score: Is there any difference between female and male?</p>
+<div class="cell">
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'ggplot2' was built under R version 4.3.2</code></pre>
+</div>
+<div class="cell-output-display">
+<p><img src="datastory_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p><br></p>
+<p>The median score appears to be higher for females than for males. However, the spread of scores appears to be larger for males than for females. One of the reasons for this might be that there are other factors besides gender that influence the test score, and these factors might have a larger effect on males than females.</p>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    Two Sample t-test
+
+data:  study$average_score by study$gender
+t = 4.19, df = 998, p-value = 3.036e-05
+alternative hypothesis: true difference in means between group female and group male is not equal to 0
+95 percent confidence interval:
+ 1.993744 5.506248
+sample estimates:
+mean in group female   mean in group male 
+             69.5695              65.8195 </code></pre>
+</div>
+</div>
+<p><br></p>
+<p>But, how about within each subject (Math, Writing, Reading)?</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="datastory_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
+</div>
+<div class="cell-output-display">
+<p><img src="datastory_files/figure-html/unnamed-chunk-5-2.png" class="img-fluid" width="672"></p>
+</div>
+<div class="cell-output-display">
+<p><img src="datastory_files/figure-html/unnamed-chunk-5-3.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p><br></p>
+<p>Interestingly, when both genders are plotted against all three subjects, males appear to score higher in all subjects. There could be a number of reasons for this. For example, males might be more interested in certain subjects than females, or they might have had better teachers in those subjects.</p>
 
 
 </section>
