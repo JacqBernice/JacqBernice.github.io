@@ -1,12 +1,12 @@
 {
-    "id": "EA8632D5",
+    "id": "94762F93",
     "path": "D:/Y2S2/NM2207/Project/JacqBernice.github.io/_quarto.yml",
     "project_path": "_quarto.yml",
     "type": "yaml",
-    "hash": "0",
+    "hash": "467276392",
     "contents": "",
     "dirty": false,
-    "created": 1710350327621.0,
+    "created": 1711649743204.0,
     "source_on_save": false,
     "relative_order": 1,
     "properties": {
@@ -20,7 +20,7 @@
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1711639328780,
+    "last_content_update": 1711639328,
     "read_only": false,
     "read_only_alternatives": []
 }
