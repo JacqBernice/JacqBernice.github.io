@@ -93,6 +93,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./datastory.html" rel="" target="">
  <span class="menu-text">My Data Story</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./datainsights.html" rel="" target="">
+ <span class="menu-text">Data Insights</span></a>
+  </li>  
 </ul>
             <div class="quarto-navbar-tools ms-auto">
 </div>
@@ -137,15 +141,15 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="background" class="level2">
 <h2 class="anchored" data-anchor-id="background">Background</h2>
-<p>Animation movies, a vibrant blend of art and storytelling, have evolved significantly since their inception. The journey began with short, silent cartoons in the early 20th century, gradually transforming into feature-length films by the 1930s, marked by the release of Disney’s “Snow White and the Seven Dwarfs.” Over the decades, the advancement of computer-generated imagery (CGI) revolutionized the industry, beginning with Pixar’s “Toy Story” in 1995, the first fully computer-animated feature film. Animation styles have diversified, embracing traditional hand-drawn, stop-motion, and digital techniques, appealing to a broad audience beyond just children. Today, animation movies are celebrated for their complex storytelling, intricate visuals, and the ability to explore a wide range of themes, making them a beloved genre worldwide.</p>
+<p>Academic performance is a multifaceted construct influenced by various factors that interact in complex ways. As a student myself, understanding the determinants of academic success is crucial for me to maintain my grades. Additionally, this helps to answer my curiosity on whether food is really key to excelling in studies.</p>
 </section>
 <section id="aim" class="level2">
 <h2 class="anchored" data-anchor-id="aim">Aim</h2>
-<p>My analysis of animation movies aims to identify trends over time, such as shifts in rates of popularity (ratings &amp; votes) based on its released year, whether the movies’ runtime affect their popularity (ratings &amp; votes), what types of animation movies are most commercially successful.</p>
+<p>My analysis of study performance aims to delve into the diverse factors that impact study performance, shedding light on both individual and situational variables that contribute to academic outcomes.</p>
 </section>
 <section id="about-data-set" class="level2">
 <h2 class="anchored" data-anchor-id="about-data-set">About Data Set</h2>
-<p>The data set that I am using for my analysis is from Kaggle by KABHISHM titled: “22K Animated Movies and TV Shows”. The dataset contains information for over 22,000 animated movies and tv shows. It includes information like name, rating, certificate, runtime, description, year of release, genre and number of votes. The following is a glimpse of the data set:</p>
+<p>The data set that I am using for my analysis is from Kaggle by BHAVIK JIKADARA titled: “<strong>Student Study Performance</strong>”. The data-set contains marks secured by students in different subjects namely, Mathematics, Writing, and Reading, the students’ parents educational background, their test preparation course completion status, etc. The following is a glimpse of the data set:</p>
 <div class="cell">
 <div class="cell-output cell-output-stderr">
 <pre><code>Warning: package 'tidyverse' was built under R version 4.3.2</code></pre>
@@ -193,16 +197,15 @@ ul.task-list li input[type="checkbox"] {
 <div class="cell">
 <div class="cell-output cell-output-stdout">
 <pre><code>Rows: 1,000
-Columns: 9
-$ gender                      &lt;chr&gt; "female", "female", "female", "male", "mal…
-$ race_ethnicity              &lt;chr&gt; "group B", "group C", "group B", "group A"…
-$ parental_level_of_education &lt;chr&gt; "bachelor's degree", "some college", "mast…
-$ lunch                       &lt;chr&gt; "standard", "standard", "standard", "free/…
-$ test_preparation_course     &lt;chr&gt; "none", "completed", "none", "none", "none…
-$ math_score                  &lt;int&gt; 72, 69, 90, 47, 76, 71, 88, 40, 64, 38, 58…
-$ reading_score               &lt;int&gt; 72, 90, 95, 57, 78, 83, 95, 43, 64, 60, 54…
-$ writing_score               &lt;int&gt; 74, 88, 93, 44, 75, 78, 92, 39, 67, 50, 52…
-$ average_score               &lt;int&gt; 73, 82, 93, 49, 76, 77, 92, 41, 65, 49, 55…</code></pre>
+Columns: 8
+$ gender                      &lt;chr&gt; "male", "female", "female", "male", "male"…
+$ race_ethnicity              &lt;chr&gt; "group E", "group E", "group E", "group A"…
+$ parental_level_of_education &lt;chr&gt; "associate's degree", "some college", "bac…
+$ lunch                       &lt;chr&gt; "free/reduced", "standard", "standard", "s…
+$ test_preparation_course     &lt;chr&gt; "completed", "none", "none", "completed", …
+$ math_score                  &lt;int&gt; 100, 100, 100, 100, 100, 100, 100, 99, 99,…
+$ reading_score               &lt;int&gt; 100, 92, 100, 96, 97, 100, 100, 100, 93, 8…
+$ writing_score               &lt;int&gt; 93, 97, 100, 86, 99, 100, 100, 100, 90, 81…</code></pre>
 </div>
 </div>
 

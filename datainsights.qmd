@@ -27,6 +27,7 @@ The variables in the "study_performance" data-set are as the following:
 ```{r, eval=TRUE,echo=FALSE}
 library(tidyverse)
 study <- read.csv("study_performance.csv")
+study <- study %>% mutate(average_score = round((math_score + writing_score + reading_score)/3))
 glimpse(study)
 ```
 
@@ -44,9 +45,8 @@ As seen on the plot below, the median score appears to be higher for females tha
 
 ```{r, eval=TRUE,echo=FALSE}
 library(ggplot2)
-
 ggplot(study, aes(x = gender, y = average_score, fill = gender)) +
-  geom_boxplot() +  # Box plot
+  geom_boxplot() +  
   labs(x = "Gender", y = "Average Score", title = "Average Score by Gender")
 ```
 
@@ -135,9 +135,5 @@ The group labeled "Completed" appears to have a higher average test score than t
 
 ## More support: T-Tests
 
-```{r, eval=TRUE,echo=FALSE}
-library(shiny)
+<iframe height="400" width="100%" frameborder="no" src="https://jacqbernice.shinyapps.io/Shiny_App/"> </iframe>
 
-shinyAppDir("D:/Y2S2/NM2207/Project/JacqBernice.github.io")
-
-```
