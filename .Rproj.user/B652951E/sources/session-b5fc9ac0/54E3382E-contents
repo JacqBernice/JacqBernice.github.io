@@ -1,0 +1,29 @@
+---
+title: "My Data Story"
+---
+
+## Background
+
+Academic performance is a multifaceted construct influenced by various factors that interact in complex ways. As a student myself, understanding the determinants of academic success is crucial for me to maintain my grades. Additionally, this helps to answer my curiosity on whether preparation is the main key to excelling tests.
+
+## Aim
+
+My analysis of study performance aims to delve into the diverse factors that impact study performance, shedding light on both individual and situational variables that contribute to academic outcomes.
+
+## About Data Set
+
+The data set that I am using for my analysis is from Kaggle by BHAVIK JIKADARA titled: ["**Student Study Performance**"](https://www.kaggle.com/datasets/bhavikjikadara/student-study-performance/data). The data-set contains marks secured by students in different subjects namely, Mathematics, Writing, and Reading, the students' parents educational background, their test preparation course completion status, etc. The following is a glimpse of the data set:
+
+```{r, eval=TRUE,echo=FALSE}
+library(tidyverse)
+```
+
+```{r, eval=TRUE,echo=FALSE}
+study <- read.csv("study_performance.csv")
+glimpse(study)
+
+```
+
+## Variables that will be used
+
+In the visualization of the dataset, all variables above will be incorporated, excluding "race/ethnicity." This exclusion is due to the dataset categorizing individuals into broader groups labeled as "Group A", "Group B", "Group C", "Group D", and "Group E" without specifying the specific races or ethnicities represented. This approach is chosen to ensure sensitivity and avoid potential misinterpretations associated with racial or ethnic classifications.

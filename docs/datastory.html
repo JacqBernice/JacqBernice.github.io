@@ -113,7 +113,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"></a></li>
+  <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a></li>
+  <li><a href="#aim" id="toc-aim" class="nav-link" data-scroll-target="#aim">Aim</a></li>
+  <li><a href="#about-data-set" id="toc-about-data-set" class="nav-link" data-scroll-target="#about-data-set">About Data Set</a></li>
+  <li><a href="#variables-that-will-be-used" id="toc-variables-that-will-be-used" class="nav-link" data-scroll-target="#variables-that-will-be-used">Variables that will be used</a></li>
   </ul>
 </nav>
     </div>
@@ -137,8 +140,79 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section"></h2>
+<section id="background" class="level2">
+<h2 class="anchored" data-anchor-id="background">Background</h2>
+<p>Academic performance is a multifaceted construct influenced by various factors that interact in complex ways. As a student myself, understanding the determinants of academic success is crucial for me to maintain my grades. Additionally, this helps to answer my curiosity on whether preparation is the main key to excelling tests.</p>
+</section>
+<section id="aim" class="level2">
+<h2 class="anchored" data-anchor-id="aim">Aim</h2>
+<p>My analysis of study performance aims to delve into the diverse factors that impact study performance, shedding light on both individual and situational variables that contribute to academic outcomes.</p>
+</section>
+<section id="about-data-set" class="level2">
+<h2 class="anchored" data-anchor-id="about-data-set">About Data Set</h2>
+<p>The data set that I am using for my analysis is from Kaggle by BHAVIK JIKADARA titled: <a href="https://www.kaggle.com/datasets/bhavikjikadara/student-study-performance/data">“<strong>Student Study Performance</strong>”</a>. The data-set contains marks secured by students in different subjects namely, Mathematics, Writing, and Reading, the students’ parents educational background, their test preparation course completion status, etc. The following is a glimpse of the data set:</p>
+<div class="cell">
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'tidyverse' was built under R version 4.3.2</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'ggplot2' was built under R version 4.3.2</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'tibble' was built under R version 4.3.2</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'tidyr' was built under R version 4.3.2</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'readr' was built under R version 4.3.2</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'purrr' was built under R version 4.3.2</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'dplyr' was built under R version 4.3.2</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'stringr' was built under R version 4.3.2</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'forcats' was built under R version 4.3.2</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'lubridate' was built under R version 4.3.2</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.4.4     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.0
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>Rows: 1,000
+Columns: 8
+$ gender                      &lt;chr&gt; "male", "female", "female", "male", "male"…
+$ race_ethnicity              &lt;chr&gt; "group E", "group E", "group E", "group A"…
+$ parental_level_of_education &lt;chr&gt; "associate's degree", "some college", "bac…
+$ lunch                       &lt;chr&gt; "free/reduced", "standard", "standard", "s…
+$ test_preparation_course     &lt;chr&gt; "completed", "none", "none", "completed", …
+$ math_score                  &lt;int&gt; 100, 100, 100, 100, 100, 100, 100, 99, 99,…
+$ reading_score               &lt;int&gt; 100, 92, 100, 96, 97, 100, 100, 100, 93, 8…
+$ writing_score               &lt;int&gt; 93, 97, 100, 86, 99, 100, 100, 100, 90, 81…</code></pre>
+</div>
+</div>
+</section>
+<section id="variables-that-will-be-used" class="level2">
+<h2 class="anchored" data-anchor-id="variables-that-will-be-used">Variables that will be used</h2>
+<p>In the visualization of the dataset, all variables above will be incorporated, excluding “race/ethnicity.” This exclusion is due to the dataset categorizing individuals into broader groups labeled as “Group A,” “Group B,” and “Group C,” without specifying the specific races or ethnicities represented. This approach is chosen to ensure sensitivity and avoid potential misinterpretations associated with racial or ethnic classifications.</p>
 
 
 </section>

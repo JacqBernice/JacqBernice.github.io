@@ -221,8 +221,11 @@ $ average_score               &lt;dbl&gt; 98, 96, 100, 94, 99, 100, 100, 100, 94
 <section id="comparing-score-by-gender" class="level2">
 <h2 class="anchored" data-anchor-id="comparing-score-by-gender">Comparing Score by Gender</h2>
 <p>By comparing scores, we can identify any gaps in academic performance between genders. This analysis can reveal whether one gender consistently outperforms the other in certain subjects or overall academic achievement.</p>
-<p>As seen from the plot…</p>
-<p><br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="outperform.png" class="img-fluid figure-img" width="272"></p>
+</figure>
+</div>
 <section id="comparing-score-by-gender-on-average" class="level3">
 <h3 class="anchored" data-anchor-id="comparing-score-by-gender-on-average">Comparing Score by Gender, on average</h3>
 <p>As seen on the plot below, the median score appears to be higher for females than for males. However, the spread of scores appears to be larger for males than for females.</p>
@@ -252,7 +255,7 @@ $ average_score               &lt;dbl&gt; 98, 96, 100, 94, 99, 100, 100, 100, 94
 <section id="parents-educational-background-and-childs-academic-performance-are-they-related" class="level2">
 <h2 class="anchored" data-anchor-id="parents-educational-background-and-childs-academic-performance-are-they-related">Parent’s Educational Background and Child’s Academic Performance: Are they related?</h2>
 <p>Upon looking at scores comparison across both genders which shows that females tend to score higher than males, it comes to the question whether other factors such as students’ parents educational background influence the students or children’s academic performances.</p>
-<p>According to the plot below, there is a <strong>positive correlation</strong> between parents’ educational background and students’ academic performances (average score). This means that students of parents with higher levels of education tend to score higher on average on academic tests.</p>
+<p>According to the plot and histograms below, there is a <strong>positive correlation</strong> between parents’ educational background and students’ academic performances (average score). This means that students of parents with higher levels of education tend to score higher on average on academic tests.</p>
 <p>However, it is important to note that <u>correlation does not equal causation</u>. There may be other factors that influence both parental education and child average scores. For example, children of wealthier families may be more likely to have parents with higher levels of education and also have access to better schools and resources.</p>
 <div class="cell">
 <div class="cell-output-display">
@@ -266,13 +269,13 @@ $ average_score               &lt;dbl&gt; 98, 96, 100, 94, 99, 100, 100, 100, 94
 </section>
 <section id="pre-test-lunch-does-it-matter" class="level2">
 <h2 class="anchored" data-anchor-id="pre-test-lunch-does-it-matter">Pre-test Lunch: Does it matter?</h2>
-<p>It is vital to properly nourish the body if you want to succeed in your studies, according to… Here, I will test whether students who ate standard or normal lunch do better on tests than those who didn’t eat lunch or had reduced portions.</p>
+<p>According to Anderson et al.&nbsp;(2017), students with free or reduced-price lunches experienced more positive impact on test scores compared to those with standard lunches. Here, I will test whether students who ate free or reduced-price lunches indeed do better on tests than those who had standard lunches.</p>
 <div class="cell">
 <div class="cell-output-display">
 <p><img src="datainsights_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
-<p>Based on the violin plot above, it appears that students with standard lunch has a higher median score than students who had free/reduced lunch. The violin for “standard lunch” is also narrower than the violin for “free/reduced lunch”, which means the scores in the “standard lunch” group are more clustered together. The tails of the violins are about the same length, which means the spread of the data is similar in both groups. In short, the violin plot suggests <strong>students who had standard lunch might score higher than those with reduced or no lunch</strong>.</p>
+<p>Based on the violin plot above, it appears that students with standard lunch has a higher median score than students who had free/reduced-price lunch. The violin for “standard lunch” is also narrower than the violin for “free/reduced lunch”, which means the scores in the “standard lunch” group are more clustered together. The tails of the violins are about the same length, which means the spread of the data is similar in both groups. In short, the violin plot suggests <strong>students who had standard lunch might score higher than those with free or reduced-price lunch</strong>.</p>
 <p><br></p>
 </section>
 <section id="do-well-prepared-students-always-score-higher-than-those-who-didnt-prepare" class="level2">
@@ -287,6 +290,7 @@ $ average_score               &lt;dbl&gt; 98, 96, 100, 94, 99, 100, 100, 100, 94
 </section>
 <section id="more-support-t-tests" class="level2">
 <h2 class="anchored" data-anchor-id="more-support-t-tests">More support: T-Tests</h2>
+<p>When in doubt, do a T-test and let the numbers prove it:</p>
 <iframe height="400" width="100%" frameborder="no" src="https://jacqbernice.shinyapps.io/Shiny_App/">
 </iframe>
 

@@ -9,9 +9,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Study Performance Analysis",
+    "title": "You’ve encountered a mysterious link and you decided to see what’s in it…",
     "section": "",
-    "text": "Academic performance is a multifaceted construct influenced by various factors that interact in complex ways. As a student myself, understanding the determinants of academic success is crucial for me to maintain my grades. Additionally, this helps to answer my curiosity on whether food is really key to excelling in studies."
+    "text": "Typewriter Effect\n\n\n\n\n\nCongratulations! You have been granted exclusive access to my website where numbers dance, charts come to life, and stories unfold with every click (they don’t but imagination exists for a reason). Behold, as you step into this digital sanctuary, you’ll find yourself surrounded by a tapestry of vibrant visualizations, each telling a tale waiting to be unraveled. From the peaks of histograms to the depths of scatter plots, every plot and point holds a secret, waiting for your keen eyes to uncover. So, gather ’round, and let the data speak to you in its mesmerizing language. Let curiosity be your compass, exploration your guide, and imagination your fuel as you dive deep into the heart of this captivating data story. It’s all up to you to explore! (Just please don’t skip my self intro). Go to your desired page by navigating the menu tab on the very top!"
   },
   {
     "objectID": "index.html#background",
@@ -46,7 +46,7 @@
     "href": "datastory.html",
     "title": "My Data Story",
     "section": "",
-    "text": "Warning: package 'dplyr' was built under R version 4.3.2\n\n\n\nAttaching package: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\n\nThe variables that we are visualizing would be:\n\n\n[1] \"gender\"                      \"parental_level_of_education\"\n[3] \"lunch\"                       \"test_preparation_course\"    \n[5] \"math_score\"                  \"reading_score\"              \n[7] \"writing_score\"               \"average_score\"              \n\n\n\nGender and Average Score: Is there any difference between female and male?\n\n\nWarning: package 'ggplot2' was built under R version 4.3.2\n\n\n\n\n\n\nThe median score appears to be higher for females than for males. However, the spread of scores appears to be larger for males than for females. One of the reasons for this might be that there are other factors besides gender that influence the test score, and these factors might have a larger effect on males than females.\n\n\n\n    Two Sample t-test\n\ndata:  study$average_score by study$gender\nt = 4.19, df = 998, p-value = 3.036e-05\nalternative hypothesis: true difference in means between group female and group male is not equal to 0\n95 percent confidence interval:\n 1.993744 5.506248\nsample estimates:\nmean in group female   mean in group male \n             69.5695              65.8195 \n\n\n\nBut, how about within each subject (Math, Writing, Reading)?\n\n\n\n\n\n\n\n\n\n\n\n\nInterestingly, when both genders are plotted against all three subjects, males appear to score higher in all subjects. There could be a number of reasons for this. For example, males might be more interested in certain subjects than females, or they might have had better teachers in those subjects."
+    "text": "Academic performance is a multifaceted construct influenced by various factors that interact in complex ways. As a student myself, understanding the determinants of academic success is crucial for me to maintain my grades. Additionally, this helps to answer my curiosity on whether preparation is the main key to excelling tests."
   },
   {
     "objectID": "datastory.html#visualization",
@@ -74,21 +74,21 @@
     "href": "datainsights.html#comparing-score-by-gender",
     "title": "Data Insights",
     "section": "Comparing Score by Gender",
-    "text": "Comparing Score by Gender\nBy comparing scores, we can identify any gaps in academic performance between genders. This analysis can reveal whether one gender consistently outperforms the other in certain subjects or overall academic achievement.\nAs seen from the plot…\n\n\nComparing Score by Gender, on average\nAs seen on the plot below, the median score appears to be higher for females than for males. However, the spread of scores appears to be larger for males than for females.\n\n\n\n\n\n\n\nComparing Score by Gender, in each subjects (Math, Writing, Reading)\nThis is also evident when comparing both genders’ scores in respective subjects."
+    "text": "Comparing Score by Gender\nBy comparing scores, we can identify any gaps in academic performance between genders. This analysis can reveal whether one gender consistently outperforms the other in certain subjects or overall academic achievement.\n\n\n\n\n\n\nComparing Score by Gender, on average\nAs seen on the plot below, the median score appears to be higher for females than for males. However, the spread of scores appears to be larger for males than for females.\n\n\n\n\n\n\n\nComparing Score by Gender, in each subjects (Math, Writing, Reading)\nThis is also evident when comparing both genders’ scores in respective subjects."
   },
   {
     "objectID": "datainsights.html#parents-educational-background-and-childs-academic-performance-are-they-related",
     "href": "datainsights.html#parents-educational-background-and-childs-academic-performance-are-they-related",
     "title": "Data Insights",
     "section": "Parent’s Educational Background and Child’s Academic Performance: Are they related?",
-    "text": "Parent’s Educational Background and Child’s Academic Performance: Are they related?\nUpon looking at scores comparison across both genders which shows that females tend to score higher than males, it comes to the question whether other factors such as students’ parents educational background influence the students or children’s academic performances.\nAccording to the plot below, there is a positive correlation between parents’ educational background and students’ academic performances (average score). This means that students of parents with higher levels of education tend to score higher on average on academic tests.\nHowever, it is important to note that correlation does not equal causation. There may be other factors that influence both parental education and child average scores. For example, children of wealthier families may be more likely to have parents with higher levels of education and also have access to better schools and resources."
+    "text": "Parent’s Educational Background and Child’s Academic Performance: Are they related?\nUpon looking at scores comparison across both genders which shows that females tend to score higher than males, it comes to the question whether other factors such as students’ parents educational background influence the students or children’s academic performances.\nAccording to the plot and histograms below, there is a positive correlation between parents’ educational background and students’ academic performances (average score). This means that students of parents with higher levels of education tend to score higher on average on academic tests.\nHowever, it is important to note that correlation does not equal causation. There may be other factors that influence both parental education and child average scores. For example, children of wealthier families may be more likely to have parents with higher levels of education and also have access to better schools and resources."
   },
   {
     "objectID": "datainsights.html#pre-test-lunch-does-it-matter",
     "href": "datainsights.html#pre-test-lunch-does-it-matter",
     "title": "Data Insights",
     "section": "Pre-test Lunch: Does it matter?",
-    "text": "Pre-test Lunch: Does it matter?\nIt is vital to properly nourish the body if you want to succeed in your studies, according to… Here, I will test whether students who ate standard or normal lunch do better on tests than those who didn’t eat lunch or had reduced portions.\n\n\n\n\n\nBased on the violin plot above, it appears that students with standard lunch has a higher median score than students who had free/reduced lunch. The violin for “standard lunch” is also narrower than the violin for “free/reduced lunch”, which means the scores in the “standard lunch” group are more clustered together. The tails of the violins are about the same length, which means the spread of the data is similar in both groups. In short, the violin plot suggests students who had standard lunch might score higher than those with reduced or no lunch."
+    "text": "Pre-test Lunch: Does it matter?\nAccording to Anderson et al. (2017), students with free or reduced-price lunches experienced more positive impact on test scores compared to those with standard lunches. Here, I will test whether students who ate free or reduced-price lunches indeed do better on tests than those who had standard lunches.\n\n\n\n\n\nBased on the violin plot above, it appears that students with standard lunch has a higher median score than students who had free/reduced-price lunch. The violin for “standard lunch” is also narrower than the violin for “free/reduced lunch”, which means the scores in the “standard lunch” group are more clustered together. The tails of the violins are about the same length, which means the spread of the data is similar in both groups. In short, the violin plot suggests students who had standard lunch might score higher than those with free or reduced-price lunch."
   },
   {
     "objectID": "datainsights.html#do-well-prepared-students-always-score-higher-than-those-who-didnt-prepare",
@@ -102,6 +102,34 @@
     "href": "datainsights.html#more-support-t-tests",
     "title": "Data Insights",
     "section": "More support: T-Tests",
-    "text": "More support: T-Tests"
+    "text": "More support: T-Tests\nWhen in doubt, do a T-test and let the numbers prove it:"
+  },
+  {
+    "objectID": "datastory.html#background",
+    "href": "datastory.html#background",
+    "title": "My Data Story",
+    "section": "",
+    "text": "Academic performance is a multifaceted construct influenced by various factors that interact in complex ways. As a student myself, understanding the determinants of academic success is crucial for me to maintain my grades. Additionally, this helps to answer my curiosity on whether preparation is the main key to excelling tests."
+  },
+  {
+    "objectID": "datastory.html#aim",
+    "href": "datastory.html#aim",
+    "title": "My Data Story",
+    "section": "Aim",
+    "text": "Aim\nMy analysis of study performance aims to delve into the diverse factors that impact study performance, shedding light on both individual and situational variables that contribute to academic outcomes."
+  },
+  {
+    "objectID": "datastory.html#about-data-set",
+    "href": "datastory.html#about-data-set",
+    "title": "My Data Story",
+    "section": "About Data Set",
+    "text": "About Data Set\nThe data set that I am using for my analysis is from Kaggle by BHAVIK JIKADARA titled: “Student Study Performance”. The data-set contains marks secured by students in different subjects namely, Mathematics, Writing, and Reading, the students’ parents educational background, their test preparation course completion status, etc. The following is a glimpse of the data set:\n\n\nWarning: package 'tidyverse' was built under R version 4.3.2\n\n\nWarning: package 'ggplot2' was built under R version 4.3.2\n\n\nWarning: package 'tibble' was built under R version 4.3.2\n\n\nWarning: package 'tidyr' was built under R version 4.3.2\n\n\nWarning: package 'readr' was built under R version 4.3.2\n\n\nWarning: package 'purrr' was built under R version 4.3.2\n\n\nWarning: package 'dplyr' was built under R version 4.3.2\n\n\nWarning: package 'stringr' was built under R version 4.3.2\n\n\nWarning: package 'forcats' was built under R version 4.3.2\n\n\nWarning: package 'lubridate' was built under R version 4.3.2\n\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.4.4     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.0\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\n\n\n\nRows: 1,000\nColumns: 8\n$ gender                      &lt;chr&gt; \"male\", \"female\", \"female\", \"male\", \"male\"…\n$ race_ethnicity              &lt;chr&gt; \"group E\", \"group E\", \"group E\", \"group A\"…\n$ parental_level_of_education &lt;chr&gt; \"associate's degree\", \"some college\", \"bac…\n$ lunch                       &lt;chr&gt; \"free/reduced\", \"standard\", \"standard\", \"s…\n$ test_preparation_course     &lt;chr&gt; \"completed\", \"none\", \"none\", \"completed\", …\n$ math_score                  &lt;int&gt; 100, 100, 100, 100, 100, 100, 100, 99, 99,…\n$ reading_score               &lt;int&gt; 100, 92, 100, 96, 97, 100, 100, 100, 93, 8…\n$ writing_score               &lt;int&gt; 93, 97, 100, 86, 99, 100, 100, 100, 90, 81…"
+  },
+  {
+    "objectID": "datastory.html#variables-that-will-be-used",
+    "href": "datastory.html#variables-that-will-be-used",
+    "title": "My Data Story",
+    "section": "Variables that will be used",
+    "text": "Variables that will be used\nIn the visualization of the dataset, all variables above will be incorporated, excluding “race/ethnicity.” This exclusion is due to the dataset categorizing individuals into broader groups labeled as “Group A,” “Group B,” and “Group C,” without specifying the specific races or ethnicities represented. This approach is chosen to ensure sensitivity and avoid potential misinterpretations associated with racial or ethnic classifications."
   }
 ]

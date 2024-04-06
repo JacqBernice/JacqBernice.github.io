@@ -35,9 +35,7 @@ glimpse(study)
 
 By comparing scores, we can identify any gaps in academic performance between genders. This analysis can reveal whether one gender consistently outperforms the other in certain subjects or overall academic achievement.
 
-As seen from the plot...
-
-<br>
+![](outperform.png){fig-align="center" width="272"}
 
 ### Comparing Score by Gender, on average
 
@@ -78,7 +76,7 @@ ggplot(data = study, aes(x = gender, y = reading_score, color = gender)) +
 
 Upon looking at scores comparison across both genders which shows that females tend to score higher than males, it comes to the question whether other factors such as students' parents educational background influence the students or children's academic performances.
 
-According to the plot below, there is a **positive correlation** between parents' educational background and students' academic performances (average score). This means that students of parents with higher levels of education tend to score higher on average on academic tests.
+According to the plot and histograms below, there is a **positive correlation** between parents' educational background and students' academic performances (average score). This means that students of parents with higher levels of education tend to score higher on average on academic tests.
 
 However, it is important to note that <u>correlation does not equal causation</u>. There may be other factors that influence both parental education and child average scores. For example, children of wealthier families may be more likely to have parents with higher levels of education and also have access to better schools and resources.
 
@@ -101,7 +99,7 @@ ggplot(study, aes(x = average_score, fill = parental_level_of_education)) +
 
 ## Pre-test Lunch: Does it matter?
 
-It is vital to properly nourish the body if you want to succeed in your studies, according to... Here, I will test whether students who ate standard or normal lunch do better on tests than those who didn't eat lunch or had reduced portions.
+According to Anderson et al. (2017), students with free or reduced-price lunches experienced more positive impact on test scores compared to those with standard lunches. Here, I will test whether students who ate free or reduced-price lunches indeed do better on tests than those who had standard lunches.
 
 ```{r, eval=TRUE,echo=FALSE}
 
@@ -115,7 +113,7 @@ ggplot(study, aes(x = lunch, y = average_score, fill = lunch)) +
 
 ```
 
-Based on the violin plot above, it appears that students with standard lunch has a higher median score than students who had free/reduced lunch. The violin for "standard lunch" is also narrower than the violin for "free/reduced lunch", which means the scores in the "standard lunch" group are more clustered together. The tails of the violins are about the same length, which means the spread of the data is similar in both groups. In short, the violin plot suggests **students who had standard lunch might score higher than those with reduced or no lunch**.
+Based on the violin plot above, it appears that students with standard lunch has a higher median score than students who had free/reduced-price lunch. The violin for "standard lunch" is also narrower than the violin for "free/reduced lunch", which means the scores in the "standard lunch" group are more clustered together. The tails of the violins are about the same length, which means the spread of the data is similar in both groups. In short, the violin plot suggests **students who had standard lunch might score higher than those with free or reduced-price lunch**.
 
 <br>
 
@@ -135,5 +133,8 @@ The group labeled "Completed" appears to have a higher average test score than t
 
 ## More support: T-Tests
 
-<iframe height="400" width="100%" frameborder="no" src="https://jacqbernice.shinyapps.io/Shiny_App/"> </iframe>
+When in doubt, do a T-test and let the numbers prove it:
 
+<iframe height="400" width="100%" frameborder="no" src="https://jacqbernice.shinyapps.io/Shiny_App/">
+
+</iframe>
