@@ -99,7 +99,7 @@ ggplot(study, aes(x = average_score, fill = parental_level_of_education)) +
 
 ## Pre-test Lunch: Does it matter?
 
-According to Anderson et al. (2017), students with free or reduced-price lunches experienced more positive impact on test scores compared to those with standard lunches. Here, I will test whether students who ate free or reduced-price lunches indeed do better on tests than those who had standard lunches.
+According to [Anderson et al. (2017)](https://www.nber.org/papers/w23218), students with free or reduced-price lunches experienced more positive impact on test scores compared to those with standard lunches. Here, I will test whether students who ate free or reduced-price lunches indeed do better on tests than those who had standard lunches.
 
 ```{r, eval=TRUE,echo=FALSE}
 

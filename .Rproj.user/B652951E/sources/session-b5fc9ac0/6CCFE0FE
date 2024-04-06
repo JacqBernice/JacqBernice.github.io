@@ -3,7 +3,7 @@
     "path": "D:/Y2S2/NM2207/Project/JacqBernice.github.io/datainsights.qmd",
     "project_path": "datainsights.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "610129633",
     "contents": "",
     "dirty": false,
     "created": 1711649770720.0,
@@ -15,18 +15,18 @@
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "39,0",
+        "cursorPosition": "103,0",
         "scrollLine": "32",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "rmdVisualModeLocation": "1328:1327"
+        "rmdVisualModeLocation": "4371:3301"
     },
     "folds": "",
-    "lastKnownWriteTime": 1712430718,
+    "lastKnownWriteTime": 1712430915,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1712430718440,
+    "last_content_update": 1712430915969,
     "read_only": false,
     "read_only_alternatives": []
 }
