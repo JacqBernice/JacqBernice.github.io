@@ -1,0 +1,24 @@
+"0","library(tidyverse)"
+"0","study <- read.csv(""study_performance.csv"")"
+"0","study <- study %>% mutate(Average_Score = round((Math_Score + Writing_Score + Reading_Score)/3))"
+"0","glimpse(study)"
+"1","Rows: 1,000"
+"1",""
+"1","
+"
+"1","Columns: 9"
+"1",""
+"1","
+"
+"1","$ Gender                      [3m[38;5;246m<chr>[39m[23m ""Male"", ""Female"", ""Female"", ""Male"", ""Male"", ""Male"", ""Fema…
+$ Race_Ethnicity              [3m[38;5;246m<chr>[39m[23m ""group E"", ""group E"", ""group E"", ""group A"", ""group D"", ""g…
+$ Parental_Level_Of_Education [3m[38;5;246m<chr>[39m[23m ""associate's degree"", ""some college"", ""bachelor's degree""…
+$ Lunch                       [3m[38;5;246m<chr>[39m[23m ""Free/Reduced"", ""Standard"", ""Standard"", ""Standard"", ""Stan…
+$ Test_Preparation_Course     [3m[38;5;246m<chr>[39m[23m ""Completed"", ""None"", ""None"", ""Completed"", ""Completed"", ""C…
+$ Math_Score                  [3m[38;5;246m<int>[39m[23m 100, 100, 100, 100, 100, 100, 100, 99, 99, 99, 98, 98, 98…
+$ Reading_Score               [3m[38;5;246m<int>[39m[23m 100, 92, 100, 96, 97, 100, 100, 100, 93, 87, 86, 100, 87,…
+$ Writing_Score               [3m[38;5;246m<int>[39m[23m 93, 97, 100, 86, 99, 100, 100, 100, 90, 81, 90, 99, 90, 8…
+$ Average_Score               [3m[38;5;246m<dbl>[39m[23m 98, 96, 100, 94, 99, 100, 100, 100, 94, 89, 91, 99, 92, 8…"
+"1",""
+"1","
+"

@@ -97,6 +97,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./datainsights.html" rel="" target="">
  <span class="menu-text">Data Insights</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Discussion.html" rel="" target="">
+ <span class="menu-text">Discussion</span></a>
+  </li>  
 </ul>
             <div class="quarto-navbar-tools ms-auto">
 </div>
@@ -165,7 +169,7 @@ Typewriter Effect
   .typewriter-text::after {
     content: "";
     border-right: 2px solid black;
-    animation: showBorder 5s steps(40) forwards;
+    animation: showBorder .5s steps(40) forwards;
   }
 
   @keyframes showBorder {
@@ -185,12 +189,12 @@ Typewriter Effect
       var textContent = textElement.innerHTML;
       textElement.innerHTML = '';
 
-      var i = 0;
+      var i = 4;
       var typingInterval = setInterval(function() {
         textElement.innerHTML += textContent.charAt(i);
         i++;
 
-        if (i === textContent.length) {
+        if (i === textContent.length - 5) {
           clearInterval(typingInterval);
         }
       }, 30); // Adjust typing speed (milliseconds)

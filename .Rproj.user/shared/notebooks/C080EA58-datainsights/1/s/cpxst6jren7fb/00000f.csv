@@ -1,0 +1,7 @@
+"0",""
+"0","ggplot(study, aes(x = Lunch, y = Average_Score, fill = Lunch)) +"
+"0","  geom_violin(trim = FALSE, draw_quantiles = c(0.25, 0.5, 0.75)) +"
+"0","  geom_boxplot(width = 0.1, fill = ""white"", outlier.shape = NA) +"
+"0","  labs(x = ""Lunch"", y = ""Average Test Score"", fill = ""Lunch"") +"
+"0","  theme_minimal() +"
+"0","  theme(legend.position = ""none"")"

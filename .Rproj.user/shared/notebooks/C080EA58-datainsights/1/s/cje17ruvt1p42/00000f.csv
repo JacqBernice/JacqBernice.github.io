@@ -1,0 +1,4 @@
+"0",""
+"0","ggplot(study, aes(x = Average_Score, fill = Test_Preparation_Course)) +"
+"0","  geom_density(alpha = 0.7) +"
+"0","  labs(x = ""Average Test Score"", y = ""Density"")"

@@ -1,0 +1,5 @@
+"0",""
+"0","ggplot(study, aes(x = Parental_Level_Of_Education, y = Average_Score)) +"
+"0","  geom_point() +  # Add points"
+"0","  labs(x = ""Parent Education"", y = ""Academic Performance"") +  # Labels for axes"
+"0","  theme(axis.text.x = element_text(angle = 45, hjust = 1))"

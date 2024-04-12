@@ -1,0 +1,6 @@
+"0","        "
+"0","ggplot(study, aes(x = Average_Score, fill = as.factor(Parental_Level_Of_Education))) +"
+"0","  geom_histogram(binwidth = 5, position = ""identity"", alpha = 0.7) +"
+"0","  labs(x = ""Average Score"", fill = ""Parent Education"") +"
+"0","  theme_minimal()"
+"0",""

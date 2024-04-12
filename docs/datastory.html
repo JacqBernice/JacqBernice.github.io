@@ -97,6 +97,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./datainsights.html" rel="" target="">
  <span class="menu-text">Data Insights</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Discussion.html" rel="" target="">
+ <span class="menu-text">Discussion</span></a>
+  </li>  
 </ul>
             <div class="quarto-navbar-tools ms-auto">
 </div>
@@ -152,67 +156,23 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="about-data-set">About Data Set</h2>
 <p>The data set that I am using for my analysis is from Kaggle by BHAVIK JIKADARA titled: <a href="https://www.kaggle.com/datasets/bhavikjikadara/student-study-performance/data">“<strong>Student Study Performance</strong>”</a>. The data-set contains marks secured by students in different subjects namely, Mathematics, Writing, and Reading, the students’ parents educational background, their test preparation course completion status, etc. The following is a glimpse of the data set:</p>
 <div class="cell">
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: package 'tidyverse' was built under R version 4.3.2</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: package 'ggplot2' was built under R version 4.3.2</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: package 'tibble' was built under R version 4.3.2</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: package 'tidyr' was built under R version 4.3.2</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: package 'readr' was built under R version 4.3.2</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: package 'purrr' was built under R version 4.3.2</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: package 'dplyr' was built under R version 4.3.2</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: package 'stringr' was built under R version 4.3.2</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: package 'forcats' was built under R version 4.3.2</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: package 'lubridate' was built under R version 4.3.2</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
-✔ dplyr     1.1.4     ✔ readr     2.1.5
-✔ forcats   1.0.0     ✔ stringr   1.5.1
-✔ ggplot2   3.4.4     ✔ tibble    3.2.1
-✔ lubridate 1.9.3     ✔ tidyr     1.3.0
-✔ purrr     1.0.2     
-── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-✖ dplyr::filter() masks stats::filter()
-✖ dplyr::lag()    masks stats::lag()
-ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</code></pre>
-</div>
-</div>
-<div class="cell">
 <div class="cell-output cell-output-stdout">
-<pre><code>Rows: 1,000
+<pre><code>Rows: 1,048,575
 Columns: 8
-$ gender                      &lt;chr&gt; "male", "female", "female", "male", "male"…
-$ race_ethnicity              &lt;chr&gt; "group E", "group E", "group E", "group A"…
-$ parental_level_of_education &lt;chr&gt; "associate's degree", "some college", "bac…
-$ lunch                       &lt;chr&gt; "free/reduced", "standard", "standard", "s…
-$ test_preparation_course     &lt;chr&gt; "completed", "none", "none", "completed", …
-$ math_score                  &lt;int&gt; 100, 100, 100, 100, 100, 100, 100, 99, 99,…
-$ reading_score               &lt;int&gt; 100, 92, 100, 96, 97, 100, 100, 100, 93, 8…
-$ writing_score               &lt;int&gt; 93, 97, 100, 86, 99, 100, 100, 100, 90, 81…</code></pre>
+$ Gender                      &lt;chr&gt; "Male", "Female", "Female", "Male", "Male"…
+$ Race_Ethnicity              &lt;chr&gt; "Group E", "Group E", "Group E", "Group A"…
+$ Parental_Level_Of_Education &lt;chr&gt; "associate's degree", "some college", "bac…
+$ Lunch                       &lt;chr&gt; "Free/Reduced", "Standard", "Standard", "S…
+$ Test_Preparation_Course     &lt;chr&gt; "Completed", "None", "None", "Completed", …
+$ Math_Score                  &lt;int&gt; 100, 100, 100, 100, 100, 100, 100, 99, 99,…
+$ Reading_Score               &lt;int&gt; 100, 92, 100, 96, 97, 100, 100, 100, 93, 8…
+$ Writing_Score               &lt;int&gt; 93, 97, 100, 86, 99, 100, 100, 100, 90, 81…</code></pre>
 </div>
 </div>
 </section>
 <section id="variables-that-will-be-used" class="level2">
 <h2 class="anchored" data-anchor-id="variables-that-will-be-used">Variables that will be used</h2>
-<p>In the visualization of the dataset, all variables above will be incorporated, excluding “race/ethnicity.” This exclusion is due to the dataset categorizing individuals into broader groups labeled as “Group A,” “Group B,” and “Group C,” without specifying the specific races or ethnicities represented. This approach is chosen to ensure sensitivity and avoid potential misinterpretations associated with racial or ethnic classifications.</p>
+<p>In the visualization of the dataset, all variables above will be incorporated, excluding “Race_Ethnicity.” This exclusion is due to the dataset categorizing individuals into broader groups labeled as “Group A”, “Group B”, “Group C”, “Group D”, and “Group E” without specifying the specific races or ethnicities represented. This approach is chosen to ensure sensitivity and avoid potential misinterpretations associated with racial or ethnic classifications.</p>
 
 
 </section>

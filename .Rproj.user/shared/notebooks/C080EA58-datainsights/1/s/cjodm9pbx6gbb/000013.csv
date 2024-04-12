@@ -1,0 +1,5 @@
+"0",""
+"0","ggplot(data = study, aes(x = Gender, y = Reading_Score, fill = Gender)) +"
+"0","  geom_boxplot() +"
+"0","  labs(x = ""Gender"", y = ""Reading Score"") +"
+"0","  ggtitle(""Reading Scores by Gender"")"
