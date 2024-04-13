@@ -26,7 +26,7 @@ My analysis of lunch status presents an intriguing contradiction to the claim by
 
 ### **Effect of Test Preparation Courses:**
 
-The data indicating that students who completed a test preparation course scored higher on average than those who did not strongly supports the idea that structured preparation and study can improve test outcomes. This effect might be due to better familiarity with test formats, enhanced confidence, and improved knowledge retention.
+The data indicating that students who completed a test preparation course scored higher on average than those supports the idea that structured preparation and study can improve test outcomes. However, it's important to note that this effect might be due to other factors as well such as, better familiarity with test formats, enhanced confidence, and improved knowledge retention.
 
 <br>
 
